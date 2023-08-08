@@ -1,0 +1,105 @@
+overrides:
+    transformation_techs_2030:
+        techs:
+            # ASSUME: Naptha production can be diverted to kerosene and diesel production, in equal measure.
+            biofuel_to_liquids: # [Danish energy agency, renewable fuels, 85 Gasif. Ent. Flow FT, liq fu, 2030]
+                constraints:
+                    carrier_ratios:
+                        carrier_out.syn_kerosene: 0.0875  # MWh_kerosene/MWh_in (includes 50% of Naptha production)
+                        carrier_out_2.syn_diesel: 0.1775  # MWh_diesel/MWh_in (includes 50% of Naptha production)
+                        carrier_out_3.electricity: 0.016  # MWhe/MWh_in
+                        #carrier_out_4.naphtha: 0.145  # MWh_naphtha/MWh_in
+                    lifetime: 25
+                costs:
+                    monetary:  # including 50% Naptha into 'diesel' output leads to ~0.175 MWh_diesel / MWh_biofuel
+                        # TODO: sense check energy_cap vs om_annual costs (does the difference make sense?)
+                        energy_cap: 582.2535211267605 # (10,000 EUR2015/MW_diesel)
+                        om_annual: 15.52676056338028  # (10,000 EUR2015/MW_diesel/year)
+                        om_prod: 0.0001587014084507042  # (10,000 EUR2015/MW_diesel)
+
+            hydrogen_to_liquids: # [Danish energy agency, renewable fuels, 102 Hydrogen to Jet, 2030]
+                constraints:
+                    carrier_ratios:
+                        carrier_in.hydrogen: 0.995  # MWh_H2/MWh_in
+                        carrier_in_2.electricity: 0.005  # MWhe/MWh_in
+                        carrier_in_3.co2: 2.2941176470588234  # (0.1 tCO2/(MWhe + MWhH2)) | 3.9tCO2/t_fuels * 0.7MWh_fuels/MWh_in / 11.9MWh_fuels/t_fuels
+                        carrier_out.syn_kerosene: 0.42  # MWh_kerosene/MWh_in @ 60% liquids content
+                        carrier_out_2.syn_diesel: 0.27999999999999997  # MWh_diesel/MWh_in @ 40% liquids content (combining diesel oil and light oil production)
+                    lifetime: 25  # 2020 technical lifetime
+                costs:
+                    monetary:
+                        # TODO: sense check energy_cap vs om_annual costs (does the difference make sense?)
+                        energy_cap: 266.6666666666667  # (10,000 EUR2015/MW_kerosene) | 1.6MEur/MW_liquids / 0.6 MW_kerosene/MW_liquids
+                        om_annual: 16.933333333333334  # (10,000 EUR2015/MW_kerosene/year) | 12.7Eur/MWh_liquids * 8000h_operation/year / 0.6MW_kerosene/MW_liquids
+                        om_prod: 0.0007000000000000001  # (10,000 EUR2015/MWh_kerosene) | 4.2Eur/MWh_liquids / 0.6 MWh_kerosene/MWh_liquids
+
+            # ASSUME: ignore electricity input, as it is 1% of the input energy requirements.
+            biofuel_to_diesel: # [Danish energy agency, renewable fuels, 101 Catalytic Hydropyrolysis 2, 2030]
+                constraints:
+                    energy_eff: 0.57  # (1 MWh_diesel/MWh_biofuel) | sum of gasoline and diesel production
+                    lifetime: 20
+                costs:
+                    monetary:
+                        energy_cap: 158.0 # (10,000 EUR2015/MW_diesel)
+                        om_annual: 2.7  # (10,000 EUR2015/MW_diesel/year)
+                        om_prod: 0.000131  # (10,000 EUR2015/MWh_diesel)
+
+
+            biofuel_to_methanol: # [Danish energy agency, renewable fuels, 97 Methanol from biomass gasif., 2030]
+                constraints:
+                    energy_eff: 0.61  # MWh_methanol/MWh_bio
+                    # carrier_ratios:
+                    #     carrier_out_2.electricity: 0.02  # MWhe/MWh_bio
+                    #     carrier_out.methanol: 0.22  # MWh_methanol/MWh_bio
+                    lifetime: 20
+                costs:
+                    monetary:
+                        energy_cap: 292.0  # (10,000 EUR2015/MW_methanol)
+                        om_annual: 3.9000000000000004  # (10,000 EUR2015/MW_methanol/year)
+                        om_prod: 0.00136  # (10,000 EUR2015/MWh_methanol)
+
+            hydrogen_to_methanol:  # [Danish energy agency, renewable fuels, 98 Methanol from power, 2030] # TODO: should not run intermittently
+                costs:
+                    monetary:
+                        energy_cap: 301.0  # (10,000 EUR2015/MW_methanol)
+                        om_annual: 5.3  # (10,000 EUR2015/MW_methanol/year)
+                        om_prod: 0.000627  # (10,000 EUR2015/MWh_methanol)
+
+            biofuel_to_methane: # [Danish energy agency, renewable fuels, 84 Biomass to SNG gassifier, 2030]
+                constraints:
+                    energy_eff: 0.63
+                    lifetime: 20
+                costs:
+                    monetary:  # source gives in terms of carrier_in, so these are scaled by the methane production efficiency
+                        energy_cap: 253.96825396825398  #  (10,000 EUR2015/MW_methane) | EUR/input / output_MW/input_MW -> EUR/output_MW
+                        om_annual: 4.158730158730159  #  (10,000 EUR2015/MW_methane/year) | EUR/input / output_MW/input_MW -> EUR/output_MW
+                        om_prod: 0.0002698412698412698  #  (10,000 EUR2015/MWh_methane) | EUR/input / output_MW/input_MW -> EUR/output_MWh
+
+            hydrogen_to_methane:  # [Boehm_2020, 2030]
+                costs:
+                    monetary:
+                        interest_rate: 0.04
+                        energy_cap: 50.0  # (10,000 EUR2015/MW_methane), average of catalytic and biological processes
+                        om_annual: 3.44  # (10,000 EUR2015/MW_methane/year)
+                        om_annual_investment_fraction: 0.05  # 5% of annual CAPEX
+
+            # TODO: add ramping?
+            electrolysis:  # [Danish energy agency, renewable fuels, 86-88 Electrolysers, 2030]
+                constraints:
+                    energy_eff: 0.6896666666666667  # average of SOEC, PEM, and Alkaline
+                    lifetime: 20.0  # average of SOEC, PEM, and Alkaline
+                costs:
+                    monetary:
+                        interest_rate: 0.1
+                        energy_cap: 85.39444939796637  # (10,000 EUR2015/MW_H2) | average of SOEC, PEM, and Alkaline
+                        om_annual: 3.7633933559742676  # (10,000 EUR2015/MW_H2/year) | average of SOEC, PEM, and Alkaline
+
+            dac:  # [Fasihi_2019, Low T, 2030]
+                constraints:
+                    energy_eff: 50.0 # (0.1 tCO2/MWh)
+                    lifetime: 25
+                costs:
+                    monetary:
+                        interest_rate: 0.07
+                        energy_cap: 18.96  # (100,000 EUR2015/tCO2), 237 Eur/tCO2/y -> 237 Eur/0.125kgCO2/h (8000 operational hours) -> 1896Eur/kgCO2 -> 1.896x10^6 Eur/tCO2
+                        om_annual_investment_fraction: 0.04  # 4% of annual CAPEX

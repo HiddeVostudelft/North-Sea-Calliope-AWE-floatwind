@@ -1,0 +1,28 @@
+
+overrides:
+    floatwind_cap_max:
+        group_constraints:
+            floatwind_DNK:
+                techs: [wind_floating, awe_offshore_float_fw1, awe_offshore_float_fw2]
+                locs: [DNK]
+                energy_cap_max: 0.345  # (100,000 MW)
+            floatwind_FRA:
+                techs: [wind_floating, awe_offshore_float_fw1, awe_offshore_float_fw2]
+                locs: [FRA]
+                energy_cap_max: 2.27  # (100,000 MW)
+            floatwind_GBR:
+                techs: [wind_floating, awe_offshore_float_fw1, awe_offshore_float_fw2]
+                locs: [GBR]
+                energy_cap_max: 6.805  # (100,000 MW)
+            floatwind_IRL:
+                techs: [wind_floating, awe_offshore_float_fw1, awe_offshore_float_fw2]
+                locs: [IRL]
+                energy_cap_max: 2.765  # (100,000 MW)
+            floatwind_NOR:
+                techs: [wind_floating, awe_offshore_float_fw1, awe_offshore_float_fw2]
+                locs: [NOR]
+                energy_cap_max: 7.08 # (100,000 MW)
+            floatwind_SWE:
+                techs: [wind_floating, awe_offshore_float_fw1, awe_offshore_float_fw2]
+                locs: [SWE]
+                energy_cap_max: 1.8  # (100,000 MW)

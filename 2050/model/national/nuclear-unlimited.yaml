@@ -1,0 +1,53 @@
+overrides:
+    no-nuclear-cap-max:
+        locations:
+#            AUT:
+#                techs.nuclear.constraints.energy_cap_max: 10 # (100,000 MW)
+#            BGR:
+#                techs.nuclear.constraints.energy_cap_max: 10 # (100,000 MW)
+#            BIH:
+#                techs.nuclear.constraints.energy_cap_max: 0.01984 # (100,000 MW)
+#            CZE:
+#                techs.nuclear.constraints.energy_cap_max: 0.07793000000000001 # (100,000 MW)
+#            DEU:
+#                techs.nuclear.constraints.energy_cap_max: 0.46033 # (100,000 MW)
+#            DNK:
+#                techs.nuclear.constraints.energy_cap_max: 0.028820000000000002 # (100,000 MW)
+#            ESP:
+#                techs.nuclear.constraints.energy_cap_max: 0.09615200000000002 # (100,000 MW)
+#            FIN:
+#                techs.nuclear.constraints.energy_cap_max: 0.02559 # (100,000 MW)
+            FRA:
+                techs.nuclear.constraints.energy_cap_max: 10 # (100,000 MW)
+            GBR:
+                techs.nuclear.constraints.energy_cap_max: 10 # (100,000 MW)
+#            GRC:
+#                techs.nuclear.constraints.energy_cap_max: 0.0475 # (100,000 MW)
+#            HRV:
+#                techs.nuclear.constraints.energy_cap_max: 0.003435 # (100,000 MW)
+#            HUN:
+#                techs.nuclear.constraints.energy_cap_max: 0.01182 # (100,000 MW)
+#            IRL:
+#                techs.nuclear.constraints.energy_cap_max: 0.00855 # (100,000 MW)
+#            ITA:
+#                techs.nuclear.constraints.energy_cap_max: 0.08428000000000001 # (100,000 MW)
+#            MKD:
+#                techs.nuclear.constraints.energy_cap_max: 0.00824 # (100,000 MW)
+#            MNE:
+#                techs.nuclear.constraints.energy_cap_max: 0.0021000000000000003 # (100,000 MW)
+#            NLD:
+#                techs.nuclear.constraints.energy_cap_max: 0.051140000000000005 # (100,000 MW)
+#            POL:
+#                techs.nuclear.constraints.energy_cap_max: 0.28870700000000005 # (100,000 MW)
+#            PRT:
+#                techs.nuclear.constraints.energy_cap_max: 0.017560000000000003 # (100,000 MW)
+#            ROU:
+#                techs.nuclear.constraints.energy_cap_max: 0.060047 # (100,000 MW)
+#            SRB:
+#                techs.nuclear.constraints.energy_cap_max: 0.043112000000000004 # (100,000 MW)
+#            SVK:
+#                techs.nuclear.constraints.energy_cap_max: 0.0055000000000000005 # (100,000 MW)
+#            SVN:
+#                techs.nuclear.constraints.energy_cap_max: 0.013510000000000001 # (100,000 MW)
+#            SWE:
+#                techs.nuclear.constraints.energy_cap_max: 0.0013000000000000002 # (100,000 MW)

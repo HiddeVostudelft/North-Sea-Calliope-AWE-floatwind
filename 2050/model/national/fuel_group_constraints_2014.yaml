@@ -1,0 +1,1391 @@
+
+overrides:
+    annual_fuel_demand:
+        group_constraints:
+            # ALB_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [ALB]
+                # carrier_con_min:
+                    # diesel: -10.936173788718705
+            # ALB_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [ALB]
+                # carrier_con_min:
+                    # kerosene: -0.9555555555555556
+            # ALB_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [ALB]
+                # carrier_con_min:
+                    # methanol: -2.3693671060898907
+            # ALB_methane:
+                # techs: [demand_industry_methane]
+                # locs: [ALB]
+                # carrier_con_min:
+                    # methane: -10.222081377477696
+            # AUT_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [AUT]
+                # carrier_con_min:
+                    # diesel: -22.60825272479669
+            # AUT_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [AUT]
+                # carrier_con_min:
+                    # kerosene: -79.17454722222222
+            # AUT_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [AUT]
+                # carrier_con_min:
+                    # methanol: -201.2227769250773
+            # AUT_methane:
+                # techs: [demand_industry_methane]
+                # locs: [AUT]
+                # carrier_con_min:
+                    # methane: -122.74386575336037
+            BEL_diesel:
+                techs: [demand_industry_diesel]
+                locs: [BEL]
+                carrier_con_min:
+                    diesel: -644.9868142392049
+            BEL_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [BEL]
+                carrier_con_min:
+                    kerosene: -160.2024999999999
+            BEL_methanol:
+                techs: [demand_industry_methanol]
+                locs: [BEL]
+                carrier_con_min:
+                    methanol: -879.3058129369361
+            BEL_methane:
+                techs: [demand_industry_methane]
+                locs: [BEL]
+                carrier_con_min:
+                    methane: -182.87525221506885
+            # BGR_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [BGR]
+                # carrier_con_min:
+                    # diesel: -11.559780593213445
+            # BGR_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [BGR]
+                # carrier_con_min:
+                    # kerosene: -20.786111111111108
+            # BGR_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [BGR]
+                # carrier_con_min:
+                    # methanol: -159.6020029987006
+            # BGR_methane:
+                # techs: [demand_industry_methane]
+                # locs: [BGR]
+                # carrier_con_min:
+                    # methane: -45.768150841207024
+            # BIH_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [BIH]
+                # carrier_con_min:
+                    # diesel: -0.5840786995666479
+            # BIH_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [BIH]
+                # carrier_con_min:
+                    # kerosene: -0.4884444444444444
+            # BIH_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [BIH]
+                # carrier_con_min:
+                    # methanol: -6.730793789218371
+            # BIH_methane:
+                # techs: [demand_industry_methane]
+                # locs: [BIH]
+                # carrier_con_min:
+                    # methane: -10.692816788673364
+            # CHE_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [CHE]
+                # carrier_con_min:
+                    # diesel: -3.359680997951837
+            # CHE_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [CHE]
+                # carrier_con_min:
+                    # kerosene: -190.44444444444446
+            # CHE_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [CHE]
+                # carrier_con_min:
+                    # methanol: -56.653525354562476
+            # CHE_methane:
+                # techs: [demand_industry_methane]
+                # locs: [CHE]
+                # carrier_con_min:
+                    # methane: -58.25674662013122
+            # CYP_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [CYP]
+                # carrier_con_min:
+                    # diesel: -27.387352618993592
+            # CYP_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [CYP]
+                # carrier_con_min:
+                    # kerosene: -28.542500000000004
+            # CYP_methane:
+                # techs: [demand_industry_methane]
+                # locs: [CYP]
+                # carrier_con_min:
+                    # methane: -10.490002943548586
+            # CZE_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [CZE]
+                # carrier_con_min:
+                    # diesel: -3.9476575361191495
+            # CZE_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [CZE]
+                # carrier_con_min:
+                    # kerosene: -36.44411111111111
+            # CZE_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [CZE]
+                # carrier_con_min:
+                    # methanol: -205.05956764775613
+            # CZE_methane:
+                # techs: [demand_industry_methane]
+                # locs: [CZE]
+                # carrier_con_min:
+                    # methane: -125.61879212353745
+            DEU_diesel:
+                techs: [demand_industry_diesel]
+                locs: [DEU]
+                carrier_con_min:
+                    diesel: -305.02796864934817
+            DEU_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [DEU]
+                carrier_con_min:
+                    kerosene: -1015.0972
+            DEU_methanol:
+                techs: [demand_industry_methanol]
+                locs: [DEU]
+                carrier_con_min:
+                    methanol: -3791.2809635604895
+            DEU_methane:
+                techs: [demand_industry_methane]
+                locs: [DEU]
+                carrier_con_min:
+                    methane: -871.3047048945249
+            DNK_diesel:
+                techs: [demand_industry_diesel]
+                locs: [DNK]
+                carrier_con_min:
+                    diesel: -121.3007573537791
+            DNK_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [DNK]
+                carrier_con_min:
+                    kerosene: -108.63
+            DNK_methane:
+                techs: [demand_industry_methane]
+                locs: [DNK]
+                carrier_con_min:
+                    methane: -51.19508684447374
+            # ESP_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [ESP]
+                # carrier_con_min:
+                    # diesel: -988.9055075632708
+            # ESP_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [ESP]
+                # carrier_con_min:
+                    # kerosene: -645.4541666666668
+            # ESP_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [ESP]
+                # carrier_con_min:
+                    # methanol: -793.3470009218609
+            # ESP_methane:
+                # techs: [demand_industry_methane]
+                # locs: [ESP]
+                # carrier_con_min:
+                    # methane: -287.5132517839612
+            # EST_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [EST]
+                # carrier_con_min:
+                    # diesel: -39.57174030822066
+            # EST_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [EST]
+                # carrier_con_min:
+                    # kerosene: -5.696902777777778
+            # EST_methane:
+                # techs: [demand_industry_methane]
+                # locs: [EST]
+                # carrier_con_min:
+                    # methane: -20.702940410827264
+            # FIN_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [FIN]
+                # carrier_con_min:
+                    # diesel: -48.99691079360609
+            # FIN_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [FIN]
+                # carrier_con_min:
+                    # kerosene: -84.43611111111113
+            # FIN_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [FIN]
+                # carrier_con_min:
+                    # methanol: -210.3450921347657
+            # FIN_methane:
+                # techs: [demand_industry_methane]
+                # locs: [FIN]
+                # carrier_con_min:
+                    # methane: -107.929774155998
+            FRA_diesel:
+                techs: [demand_industry_diesel]
+                locs: [FRA]
+                carrier_con_min:
+                    diesel: -361.52483744849064
+            FRA_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [FRA]
+                carrier_con_min:
+                    kerosene: -847.8011944444444
+            FRA_methanol:
+                techs: [demand_industry_methanol]
+                locs: [FRA]
+                carrier_con_min:
+                    methanol: -1090.1529231867544
+            FRA_methane:
+                techs: [demand_industry_methane]
+                locs: [FRA]
+                carrier_con_min:
+                    methane: -450.7046518543613
+            GBR_diesel:
+                techs: [demand_industry_diesel]
+                locs: [GBR]
+                carrier_con_min:
+                    diesel: -408.37526635517224
+            GBR_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [GBR]
+                carrier_con_min:
+                    kerosene: -1371.9980083333335
+            GBR_methanol:
+                techs: [demand_industry_methanol]
+                locs: [GBR]
+                carrier_con_min:
+                    methanol: -667.880192632865
+            GBR_methane:
+                techs: [demand_industry_methane]
+                locs: [GBR]
+                carrier_con_min:
+                    methane: -540.9226114086113
+            # GRC_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [GRC]
+                # carrier_con_min:
+                    # diesel: -280.95080110968456
+            # GRC_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [GRC]
+                # carrier_con_min:
+                    # kerosene: -128.16944444444442
+            # GRC_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [GRC]
+                # carrier_con_min:
+                    # methanol: -38.98425806343645
+            # GRC_methane:
+                # techs: [demand_industry_methane]
+                # locs: [GRC]
+                # carrier_con_min:
+                    # methane: -71.96254653900272
+            # HRV_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [HRV]
+                # carrier_con_min:
+                    # diesel: -13.675485175880489
+            # HRV_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [HRV]
+                # carrier_con_min:
+                    # kerosene: -15.265638888888885
+            # HRV_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [HRV]
+                # carrier_con_min:
+                    # methanol: -4.942760075479233
+            # HRV_methane:
+                # techs: [demand_industry_methane]
+                # locs: [HRV]
+                # carrier_con_min:
+                    # methane: -39.47102556319428
+            # HUN_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [HUN]
+                # carrier_con_min:
+                    # diesel: -10.01155562681134
+            # HUN_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [HUN]
+                # carrier_con_min:
+                    # kerosene: -19.855
+            # HUN_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [HUN]
+                # carrier_con_min:
+                    # methanol: -172.5819228686026
+            # HUN_methane:
+                # techs: [demand_industry_methane]
+                # locs: [HUN]
+                # carrier_con_min:
+                    # methane: -70.34657826267252
+            IRL_diesel:
+                techs: [demand_industry_diesel]
+                locs: [IRL]
+                carrier_con_min:
+                    diesel: -30.613527349853253
+            IRL_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [IRL]
+                carrier_con_min:
+                    kerosene: -87.22271666666666
+            IRL_methane:
+                techs: [demand_industry_methane]
+                locs: [IRL]
+                carrier_con_min:
+                    methane: -69.26137813835504
+            # ISL_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [ISL]
+                # carrier_con_min:
+                    # diesel: -26.053229885461572
+            # ISL_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [ISL]
+                # carrier_con_min:
+                    # kerosene: -23.223055555555554
+            # ISL_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [ISL]
+                # carrier_con_min:
+                    # methanol: -1.2737265477313129
+            # ISL_methane:
+                # techs: [demand_industry_methane]
+                # locs: [ISL]
+                # carrier_con_min:
+                    # methane: -13.166522623576615
+            # ITA_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [ITA]
+                # carrier_con_min:
+                    # diesel: -357.04307223610994
+            # ITA_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [ITA]
+                # carrier_con_min:
+                    # kerosene: -444.5777777777778
+            # ITA_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [ITA]
+                # carrier_con_min:
+                    # methanol: -537.53801164917
+            # ITA_methane:
+                # techs: [demand_industry_methane]
+                # locs: [ITA]
+                # carrier_con_min:
+                    # methane: -381.4759403228544
+            # LTU_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [LTU]
+                # carrier_con_min:
+                    # diesel: -3.192816668196568
+            # LTU_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [LTU]
+                # carrier_con_min:
+                    # kerosene: -10.310444444444443
+            # LTU_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [LTU]
+                # carrier_con_min:
+                    # methanol: -102.39076462466109
+            # LTU_methane:
+                # techs: [demand_industry_methane]
+                # locs: [LTU]
+                # carrier_con_min:
+                    # methane: -22.63834715478354
+            LUX_diesel:
+                techs: [demand_industry_diesel]
+                locs: [LUX]
+                carrier_con_min:
+                    diesel: -0.23453538176464256
+            LUX_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [LUX]
+                carrier_con_min:
+                    kerosene: -47.20077500000001
+            LUX_methane:
+                techs: [demand_industry_methane]
+                locs: [LUX]
+                carrier_con_min:
+                    methane: -11.406647359447675
+            # LVA_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [LVA]
+                # carrier_con_min:
+                    # diesel: -29.84654512978764
+            # LVA_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [LVA]
+                # carrier_con_min:
+                    # kerosene: -12.842972222222222
+            # LVA_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [LVA]
+                # carrier_con_min:
+                    # methanol: -4.23261788847474
+            # LVA_methane:
+                # techs: [demand_industry_methane]
+                # locs: [LVA]
+                # carrier_con_min:
+                    # methane: -49.60153589466651
+            # MKD_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [MKD]
+                # carrier_con_min:
+                    # diesel: -0.3623842764316244
+            # MKD_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [MKD]
+                # carrier_con_min:
+                    # kerosene: -1.4466666666666668
+            # MKD_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [MKD]
+                # carrier_con_min:
+                    # methanol: -3.951123323793496
+            # MKD_methane:
+                # techs: [demand_industry_methane]
+                # locs: [MKD]
+                # carrier_con_min:
+                    # methane: -6.362498894933312
+            # MNE_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [MNE]
+                # carrier_con_min:
+                    # diesel: -0.5777092182493987
+            # MNE_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [MNE]
+                # carrier_con_min:
+                    # kerosene: -2.075888888888889
+            # MNE_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [MNE]
+                # carrier_con_min:
+                    # methanol: -1.6862093858360196
+            # MNE_methane:
+                # techs: [demand_industry_methane]
+                # locs: [MNE]
+                # carrier_con_min:
+                    # methane: -2.979717373713464
+            NLD_diesel:
+                techs: [demand_industry_diesel]
+                locs: [NLD]
+                carrier_con_min:
+                    diesel: -1585.4206335987878
+            NLD_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [NLD]
+                carrier_con_min:
+                    kerosene: -425.93888888888887
+            NLD_methanol:
+                techs: [demand_industry_methanol]
+                locs: [NLD]
+                carrier_con_min:
+                    methanol: -2211.9962823817345
+            NLD_methane:
+                techs: [demand_industry_methane]
+                locs: [NLD]
+                carrier_con_min:
+                    methane: -157.1948005050411
+            NOR_diesel:
+                techs: [demand_industry_diesel]
+                locs: [NOR]
+                carrier_con_min:
+                    diesel: -137.35309300090856
+            NOR_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [NOR]
+                carrier_con_min:
+                    kerosene: -110.38833333333332
+            NOR_methanol:
+                techs: [demand_industry_methanol]
+                locs: [NOR]
+                carrier_con_min:
+                    methanol: -315.2627886699287
+            NOR_methane:
+                techs: [demand_industry_methane]
+                locs: [NOR]
+                carrier_con_min:
+                    methane: -65.64289807901818
+            # POL_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [POL]
+                # carrier_con_min:
+                    # diesel: -24.97297261890483
+            # POL_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [POL]
+                # carrier_con_min:
+                    # kerosene: -71.20277777777778
+            # POL_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [POL]
+                # carrier_con_min:
+                    # methanol: -659.9642991834103
+            # POL_methane:
+                # techs: [demand_industry_methane]
+                # locs: [POL]
+                # carrier_con_min:
+                    # methane: -329.4067356675277
+            # PRT_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [PRT]
+                # carrier_con_min:
+                    # diesel: -97.61266820715952
+            # PRT_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [PRT]
+                # carrier_con_min:
+                    # kerosene: -128.88333333333333
+            # PRT_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [PRT]
+                # carrier_con_min:
+                    # methanol: -61.39059561391464
+            # PRT_methane:
+                # techs: [demand_industry_methane]
+                # locs: [PRT]
+                # carrier_con_min:
+                    # methane: -87.05665993549539
+            # ROU_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [ROU]
+                # carrier_con_min:
+                    # diesel: -29.74788764216081
+            # ROU_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [ROU]
+                # carrier_con_min:
+                    # kerosene: -26.862561111111106
+            # ROU_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [ROU]
+                # carrier_con_min:
+                    # methanol: -371.68162523704916
+            # ROU_methane:
+                # techs: [demand_industry_methane]
+                # locs: [ROU]
+                # carrier_con_min:
+                    # methane: -99.51128200259586
+            # SRB_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [SRB]
+                # carrier_con_min:
+                    # diesel: -4.783492923396115
+            # SRB_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [SRB]
+                # carrier_con_min:
+                    # kerosene: -8.299275
+            # SRB_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [SRB]
+                # carrier_con_min:
+                    # methanol: -66.75000131558016
+            # SRB_methane:
+                # techs: [demand_industry_methane]
+                # locs: [SRB]
+                # carrier_con_min:
+                    # methane: -48.11646294826761
+            # SVK_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [SVK]
+                # carrier_con_min:
+                    # diesel: -0.7129921534753271
+            # SVK_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [SVK]
+                # carrier_con_min:
+                    # kerosene: -4.089444444444445
+            # SVK_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [SVK]
+                # carrier_con_min:
+                    # methanol: -25.692632839995603
+            # SVK_methane:
+                # techs: [demand_industry_methane]
+                # locs: [SVK]
+                # carrier_con_min:
+                    # methane: -48.77714724694329
+            # SVN_diesel:
+                # techs: [demand_industry_diesel]
+                # locs: [SVN]
+                # carrier_con_min:
+                    # diesel: -7.768476700516315
+            # SVN_kerosene:
+                # techs: [demand_industry_kerosene]
+                # locs: [SVN]
+                # carrier_con_min:
+                    # kerosene: -3.1430555555555566
+            # SVN_methanol:
+                # techs: [demand_industry_methanol]
+                # locs: [SVN]
+                # carrier_con_min:
+                    # methanol: -6.504344642050144
+            # SVN_methane:
+                # techs: [demand_industry_methane]
+                # locs: [SVN]
+                # carrier_con_min:
+                    # methane: -24.312803906739106
+            SWE_diesel:
+                techs: [demand_industry_diesel]
+                locs: [SWE]
+                carrier_con_min:
+                    diesel: -224.02262460775606
+            SWE_kerosene:
+                techs: [demand_industry_kerosene]
+                locs: [SWE]
+                carrier_con_min:
+                    kerosene: -107.11176388888892
+            SWE_methanol:
+                techs: [demand_industry_methanol]
+                locs: [SWE]
+                carrier_con_min:
+                    methanol: -231.03603046738147
+            SWE_methane:
+                techs: [demand_industry_methane]
+                locs: [SWE]
+                carrier_con_min:
+                    methane: -122.37407550623615
+
+    industry_techs:
+        techs:
+            demand_industry_diesel.exists: true
+            demand_industry_kerosene.exists: true
+            demand_industry_methanol.exists: true
+            demand_industry_methane.exists: true
+            demand_industry_biofuel.exists: true
+
+        locations:
+            # ALB.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # AUT.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            BEL.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol:
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            # BGR.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # BIH.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # CHE.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # CYP.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol.exists: false
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # CZE.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            DEU.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol:
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            DNK.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol.exists: false
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            # ESP.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # EST.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol.exists: false
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # FIN.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            FRA.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol:
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            GBR.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol:
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            # GRC.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # HRV.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # HUN.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            IRL.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol.exists: false
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            # ISL.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # ITA.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # LTU.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            LUX.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol.exists: false
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            # LVA.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # MKD.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # MNE.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            NLD.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol:
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            NOR.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol:
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+            # POL.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # PRT.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # ROU.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # SRB.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # SVK.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            # SVN.techs:
+                # biofuel_to_liquids:
+                # hydrogen_to_liquids:
+                # biofuel_to_diesel:
+                # biofuel_to_gas_and_liquids:
+                # biofuel_to_methanol:
+                # hydrogen_to_methanol:
+                # biofuel_to_methane:
+                # hydrogen_to_methane:
+                # electrolysis:
+                # dac:
+                # syn_diesel_converter:
+                # syn_methane_converter:
+                # syn_kerosene_converter:
+                # syn_methanol_converter:
+                # demand_industry_diesel:
+                # demand_industry_kerosene:
+                # demand_industry_methanol:
+                # demand_industry_methane:
+                # demand_industry_biofuel.exists: false
+            SWE.techs:
+                biofuel_to_liquids:
+                hydrogen_to_liquids:
+                biofuel_to_diesel:
+                biofuel_to_gas_and_liquids:
+                biofuel_to_methanol:
+                hydrogen_to_methanol:
+                biofuel_to_methane:
+                hydrogen_to_methane:
+                electrolysis:
+                dac:
+                syn_diesel_converter:
+                syn_methane_converter:
+                syn_kerosene_converter:
+                syn_methanol_converter:
+                demand_industry_diesel:
+                demand_industry_kerosene:
+                demand_industry_methanol:
+                demand_industry_methane:
+                demand_industry_biofuel.exists: false
+scenarios:
+    industry_fuel: [annual_fuel_demand, industry_techs]

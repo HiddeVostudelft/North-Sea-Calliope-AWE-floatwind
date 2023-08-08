@@ -1,0 +1,68 @@
+
+overrides:
+    coal_supply:
+        techs:
+            coal_power_plant:
+                essentials:
+                    name: Coal-fired power plant
+                    carrier_in: coal
+                    carrier_out: electricity
+                    parent: conversion
+                constraints:
+                    lifetime: 15  # [Danish energy agency, 02 LTE existing plant, 2030]
+                    energy_eff: 0.4  # https://www.ge.com/power/transform/article.transform.articles.2018.mar.come-hele-or-high-water
+                costs:
+                    monetary:
+                        energy_cap: 24.0  # (10,000 EUR/MW) | [Danish energy agency, 02 LTE existing plant, 2030]
+
+        locations:
+            AUT:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.010650000000000001 # (100,000 MW)
+            BGR:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.05421 # (100,000 MW)
+            BIH:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.01984 # (100,000 MW)
+            CZE:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.07793000000000001 # (100,000 MW)
+            DEU:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.46033 # (100,000 MW)
+            DNK:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.028820000000000002 # (100,000 MW)
+            ESP:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.09615200000000002 # (100,000 MW)
+            FIN:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.02559 # (100,000 MW)
+            FRA:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.029300000000000003 # (100,000 MW)
+            GBR:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.15388000000000002 # (100,000 MW)
+            GRC:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.0475 # (100,000 MW)
+            HRV:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.003435 # (100,000 MW)
+            HUN:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.01182 # (100,000 MW)
+            IRL:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.00855 # (100,000 MW)
+            ITA:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.08428000000000001 # (100,000 MW)
+            MKD:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.00824 # (100,000 MW)
+            MNE:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.0021000000000000003 # (100,000 MW)
+            NLD:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.051140000000000005 # (100,000 MW)
+            POL:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.28870700000000005 # (100,000 MW)
+            PRT:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.017560000000000003 # (100,000 MW)
+            ROU:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.060047 # (100,000 MW)
+            SRB:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.043112000000000004 # (100,000 MW)
+            SVK:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.0055000000000000005 # (100,000 MW)
+            SVN:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.013510000000000001 # (100,000 MW)
+            SWE:
+                techs.coal_power_plant.constraints.energy_cap_max: 0.0013000000000000002 # (100,000 MW)

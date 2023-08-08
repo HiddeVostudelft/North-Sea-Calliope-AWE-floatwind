@@ -1,0 +1,58 @@
+overrides:
+    scenario_2050_2_1:
+        tech_groups:
+            pv_on_roof:
+               costs:
+                    monetary:
+                        energy_cap: 63.75 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2050 moderate scenario)
+            wind_onshore:
+                costs:
+                    monetary:
+                        energy_cap: 86.0 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2050 moderate scenario)
+                        
+        techs:
+            open_field_pv:
+                costs:
+                    monetary:
+                        energy_cap: 46.88 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2050 moderate scenario)        
+            wind_onshore_competing:
+                constraints:
+                    resource_area_per_energy_cap: 1.25 # (0.1 km^2/MW) from [@EuropeanEnvironmentAgency:2009]
+            wind_offshore:
+                costs:
+                    monetary:
+                        energy_cap: 198.89 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2050 moderate scenario))
+            wind_floating:
+                costs:
+                    monetary:
+                        energy_cap: 294.50 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2050 moderate scenario)
+            #AWE_start
+            awe_onshore_sw: 
+                costs:
+                    monetary:
+                        energy_cap: 43.00 #BVG_2050
+            #AWE end
+            #AWE_start
+            awe_shallow_fw1: 
+                costs:
+                    monetary:
+                        energy_cap: 153.35 #ampyx 2050
+            #AWE end
+            #AWE_start
+            awe_shallow_fw2: 
+                costs:
+                    monetary:
+                        energy_cap: 201.20 #ampyx 2050
+            #AWE end
+            #AWE_start
+            awe_deep_fw1: 
+                costs:
+                    monetary:
+                        energy_cap: 169.66 #ampyx 2050
+            #AWE end
+            #AWE_start
+            awe_deep_fw2: 
+                costs:
+                    monetary:
+                        energy_cap: 217.52 #ampyx 2050
+            #AWE end

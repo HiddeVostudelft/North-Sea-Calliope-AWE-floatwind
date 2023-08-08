@@ -1,0 +1,234 @@
+techs:
+    # ASSUME: Naptha production can be diverted to kerosene and diesel production, in equal measure.
+    biofuel_to_liquids: # [Danish energy agency, renewable fuels, 85 Gasif. Ent. Flow FT, liq fu, 2050]
+        essentials:
+            name: Biofuel to liquid fuels converter
+            parent: conversion_plus
+            carrier_in: biofuel
+            carrier_out: syn_kerosene
+            primary_carrier_out: syn_diesel
+            carrier_out_2: syn_diesel
+            carrier_out_3: electricity
+            #carrier_out_4: naphtha  # ignoring for now
+        constraints:
+            carrier_ratios:
+                carrier_out.syn_kerosene: 0.0985  # MWh_kerosene/MWh_in (includes 50% of Naptha production)
+                carrier_out_2.syn_diesel: 0.1995  # MWh_diesel/MWh_in (includes 50% of Naptha production)
+                carrier_out_3.electricity: 0.02  # MWhe/MWh_in
+                #carrier_out_4.naphtha: 0.163  # MWh_naphtha/MWh_in
+            lifetime: 25
+        costs:
+            monetary:  # including 50% Naptha into 'diesel' output leads to ~0.195 MWh_diesel / MWh_biofuel
+                # TODO: sense check energy_cap vs om_annual costs (does the difference make sense?)
+                energy_cap: 516.8320802005012 # (10,000 EUR2015/MW_diesel) | 3.46MEur/MW_liquids/year / 0.195 MW_diesel/MW_in * 0.299 MW_liquids/MW_in
+                om_annual: 15.534837092731827  # (10,000 EUR2015/MW_diesel/year) | 104kEur/MW_liquids/year / 0.195 MW_diesel/MW_in * 0.299 MW_liquids/MW_in
+                om_prod: 0.00015878395989974935  # (10,000 EUR2015/MW_diesel) | 1.063Eur/MWh_liquids / 0.195 MWh_diesel/MWh_in * 0.299 MWh_liquids/MWh_in
+
+    hydrogen_to_liquids: # [Danish energy agency, renewable fuels, 102 Hydrogen to Jet, 2050]
+        essentials:
+            name: Hydrogen to liquid fuels converter
+            parent: conversion_plus
+            carrier_in: hydrogen
+            primary_carrier_in: hydrogen
+            carrier_in_2: electricity
+            carrier_in_3: co2
+            carrier_out: syn_kerosene
+            carrier_out_2: syn_diesel
+            primary_carrier_out: syn_kerosene
+            #carrier_out_2: district_heat  # ignoring for now
+        constraints:
+            carrier_ratios:
+                carrier_in.hydrogen: 0.995  # MWh_H2/MWh_in
+                carrier_in_2.electricity: 0.005  # MWhe/MWh_in
+                carrier_in_3.co2: 2.079831932773109  # (0.1 tCO2/(MWhe + MWhH2)) | 3.3tCO2/t_fuels * 0.75MWh_fuels/MWh_in / 11.9MWh_fuels/t_fuels
+                carrier_out.syn_kerosene: 0.44999999999999996  # MWh_kerosene/MWh_in @ 60% liquids content
+                carrier_out_2.syn_diesel: 0.30000000000000004  # MWh_diesel/MWh_in @ 40% liquids content (combining diesel oil and light oil production)
+            lifetime: 25  # 2020 technical lifetime
+        costs:
+            monetary:
+                # TODO: sense check energy_cap vs om_annual costs (does the difference make sense?)
+                energy_cap: 150.0  # (10,000 EUR2015/MW_kerosene) | 0.9MEur/MW_liquids / MW_kerosene/MW_liquids
+                om_annual: 9.866666666666667  # (10,000 EUR2015/MW_kerosene/year) | 7.4Eur/MWh_liquids * 8000h_operation/year / 0.6MW_kerosene/MW_liquids
+                om_prod: 0.00035000000000000005  # (10,000 EUR2015/MWh_kerosene) | 2.1Eur/MWh_liquids / MWh_kerosene/MWh_liquids
+
+    # ASSUME: ignore electricity input, as it is 1% of the input energy requirements.
+    biofuel_to_diesel: # [Danish energy agency, renewable fuels, 101 Catalytic Hydropyrolysis 2, 2050]
+        essentials:
+            name: Biofuel to vehicle fuel (we only consider diesel) converter
+            parent: conversion
+            carrier_in: biofuel
+            carrier_out: syn_diesel
+        constraints:
+            energy_eff: 0.6  # (1 MWh_diesel/MWh_biofuel)
+            lifetime: 20
+        costs:
+            monetary:
+                energy_cap: 93.0 # (10,000 EUR2015/MW_diesel)
+                om_annual: 2.7  # (10,000 EUR2015/MW_diesel/year)
+                # TODO: triple check this: the number seems too high...
+                om_prod: 0.000131  # (10,000 EUR2015/MWh_diesel)
+
+    # ASSUME: we now ignore this technology, as its liquid outputs would require additional refinement for use as input hydrocarbons. See https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_renewable_fuels.pdf p.237
+    biofuel_to_gas_and_liquids: # [Danish energy agency, renewable fuels, 101 Catalytic Hydropyrolysis 1, 2050]
+        exists: false
+        essentials:
+            name: Biofuel to liquid and gas fuels converter
+            parent: conversion_plus
+            carrier_in: biofuel
+            carrier_in_2: hydrogen
+            primary_carrier_in: hydrogen
+            carrier_out: syn_kerosene
+            primary_carrier_out: syn_kerosene
+            carrier_out_2: syn_methane
+            carrier_out_3: syn_diesel
+            #carrier_out_3: district_heat  # ignoring for now (also the process produces biochar)
+        constraints:
+            carrier_ratios:
+                carrier_in.biofuel: 0.77
+                carrier_in_2.hydrogen: 0.23
+                carrier_out.syn_kerosene: 0.22799999999999998  # MWh_kerosene/MWh_in @ 60% liquids content (based on hydrogen to liquids assumption)
+                carrier_out_3.syn_diesel: 0.15200000000000002  # MWh_diesel/MWh_in @ 40% liquids content (based on hydrogen to liquids assumption)
+                carrier_out_2.syn_methane: 0.31  # MWh_methane/MWh_in
+            lifetime: 20  # assumption, not given
+        costs:
+            monetary:
+                # TODO: sense check energy_cap vs om_annual costs (does the difference make sense?)
+                energy_cap: 81.51870463428253 # (10,000 EUR2015/MW_kerosene) | 0.73MEur/1000t/year / (1000t/8000h_operation/year * 11940MWh_kerosene/t) / 0.6MW_kerosene/MW_liquids
+                om_annual: 7.001675041876048  # (10,000 EUR2015/MW_kerosene/year) | 44kEur/MW_out * (228MW_out/160 1000t_liquids/year) / (1000t_liquids/8000h_operation/year * 11940MWh_kerosene/t) / 0.6MW_kerosene/MW_liquids
+                # FIXME: om_prod is '(€ /MWh of fuel)', does this mean input or output fuel? Going with it meaning 'liquid fuel'
+                # TODO: triple check this; the value seems too small.
+                om_prod: 3.3333333333333333e-06  # (10,000 EUR2015/MW_kerosene) | 0.02Eur/MWh_liquid_fuel / 0.6MWh_kerosene/MW_liquid_fuel
+
+    biofuel_to_methanol: # [Danish energy agency, renewable fuels, 97 Methanol from biomass gasif., 2050]
+        essentials:
+            name: Biofuel to Methanol converter
+            parent: conversion
+            carrier_in: biofuel
+            carrier_out: syn_methanol
+            # primary_carrier_out: syn_methanol
+            # carrier_out_2: electricity  # ignoring for now
+            #carrier_out_3: district_heat  # ignoring for now
+        constraints:
+            energy_eff: 0.65  # MWh_methanol/MWh_bio
+            # carrier_ratios:
+            #     carrier_out_2.electricity: 0.02  # MWhe/MWh_bio
+            #     carrier_out.syn_methanol: 0.22  # MWh_methanol/MWh_bio
+            lifetime: 20
+        costs:
+            monetary:
+                energy_cap: 146.0  # (10,000 EUR2015/MW_methanol)
+                om_annual: 3.9000000000000004  # (10,000 EUR2015/MW_methanol/year)
+                om_prod: 0.00136  # (10,000 EUR2015/MWh_methanol)
+
+    # FIXME: does this include electrolysis in the electricity requirement? Here, 8.6MWh electricity consumption per t Methanol; in another study, it's more like 1.5MWh
+    hydrogen_to_methanol:  # [Danish energy agency, renewable fuels, 98 Methanol from power, 2050] # TODO: should not run intermittently
+        essentials:
+            name: Hydrogen to Methanol converter
+            parent: conversion_plus
+            carrier_in: hydrogen
+            primary_carrier_in: hydrogen
+            carrier_in_2: co2
+            carrier_out: syn_methanol
+            #carrier_out_2: district_heat  # ignoring for now
+        constraints:
+            energy_eff: 0.8732169669669672 # MWhMethanol/MWhH2 | 1 / (0.192tH2/tMethanol * 33.3MWhH2/tH2 / 5.583MWhMethanol/tMethanol)
+            carrier_ratios:
+                carrier_in_2.co2: 2.142767767767768  # (0.1 tCO2/MWH2) | 1.37tCO2/tMethanol / 0.192 tH2/tMethanol / 33.3MWhH2/tH2
+            lifetime: 20
+        costs:
+            monetary:
+                energy_cap: 150.0  # (10,000 EUR2015/MW_methanol)
+                om_annual: 5.3  # (10,000 EUR2015/MW_methanol/year)
+                om_prod: 0.000627  # (10,000 EUR2015/MWh_methanol)
+
+    biofuel_to_methane: # [Danish energy agency, renewable fuels, 84 Biomass to SNG gassifier, 2050]
+        essentials:
+            name: Biofuel to Methane converter
+            parent: conversion
+            carrier_in: biofuel
+            carrier_out: syn_methane
+            #carrier_out_2: district_heat  # ignoring for now
+        constraints:
+            energy_eff: 0.7
+            lifetime: 20
+        costs:
+            monetary:  # source gives in terms of carrier_in, so these are scaled by the methane production efficiency
+                energy_cap: 214.28571428571433  #  (10,000 EUR2015/MW_methane)
+                om_annual: 3.442857142857143  #  (10,000 EUR2015/MW_methane/year)
+                om_prod: 0.00022857142857142862  #  (10,000 EUR2015/MWh_methane)
+
+    hydrogen_to_methane:  # [Boehm_2020, 2050]
+        essentials:
+            name: Hydrogen to Methane converter
+            parent: conversion_plus
+            carrier_in: hydrogen
+            primary_carrier_in: hydrogen
+            carrier_in_2: co2
+            carrier_out: syn_methane
+        constraints:
+            energy_eff: 0.826  # MW_methane/MW_H2
+            carrier_ratios:
+                carrier_in_2.co2: 1.6198347107438018  # (0.1 tCO2/MW_in) 0.196 tCO2/MW_methane / 1.21 MW_H2/MW_methane
+            lifetime: 20
+        costs:
+            monetary:
+                interest_rate: 0.04
+                energy_cap: 30.0  # (10,000 EUR2015/MW_methane), average of catalytic and biological processes
+                om_annual: 3.44  # (10,000 EUR2015/MW_methane/year)
+                om_annual_investment_fraction: 0.05  # 5% of annual CAPEX
+
+    # TODO: add ramping?
+    electrolysis:  # [Danish energy agency, renewable fuels, 86-88 Electrolysers, 2050]
+        essentials:
+            name: Hydrogen by electrolysis
+            parent: conversion
+            carrier_in: electricity
+            carrier_out: hydrogen
+        constraints:
+            energy_eff: 0.7173333333333334  # average of SOEC, PEM, and Alkaline
+            lifetime: 23.333333333333332  # average of SOEC, PEM, and Alkaline
+        costs:
+            monetary:
+                interest_rate: 0.1
+                energy_cap: 60.86291306327804  # (10,000 EUR2015/MW_H2) | average of SOEC, PEM, and Alkaline
+                om_annual: 2.705592910547868  # (10,000 EUR2015/MW_H2/year) | average of SOEC, PEM, and Alkaline
+
+    dac:  # [Fasihi_2019, Low T, 2050]
+        essentials:
+            name: Direct air CO2 capture
+            parent: conversion
+            carrier_in: electricity
+            carrier_out: co2
+        constraints:
+            energy_eff: 50.0 # (0.1 tCO2/MWh)
+            lifetime: 30
+        costs:
+            monetary:
+                interest_rate: 0.07
+                energy_cap: 15.92  # (100,000 EUR2015/tCO2), 199 Eur/tCO2/y -> 199 Eur/0.125kgCO2/h (8000 operational hours) -> 1592Eur/kgCO2 -> 1.592x10^6 Eur/tCO2
+                om_annual_investment_fraction: 0.04  # 3.7% of annual CAPEX
+
+    syn_diesel_converter:
+        essentials:
+            name: Dummy tech to allow synthetic diesel to meet demand
+            carrier_in: syn_diesel
+            carrier_out: diesel
+            parent: conversion
+    syn_methane_converter:
+        essentials:
+            name: Dummy tech to allow synthetic methane to meet demand
+            carrier_in: syn_methane
+            carrier_out: methane
+            parent: conversion
+    syn_kerosene_converter:
+        essentials:
+            name: Dummy tech to allow synthetic kerosene to meet demand
+            carrier_in: syn_kerosene
+            carrier_out: kerosene
+            parent: conversion
+    syn_methanol_converter:
+        essentials:
+            name: Dummy tech to allow synthetic methanol to meet demand
+            carrier_in: syn_methanol
+            carrier_out: methanol
+            parent: conversion

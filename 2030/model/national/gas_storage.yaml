@@ -1,0 +1,96 @@
+
+overrides:
+    gas_storage:
+        techs.methane_storage:
+            essentials:
+                name: Underground methane storage
+                parent: storage
+                carrier: methane
+            constraints:
+                energy_eff: 1
+
+        locations:
+            AUT:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.3921936458333334  # (100,000 MW)
+                    storage_cap_equals: 922.1849999999998  # (100,000 MWh)
+            BEL:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.05367500000000001  # (100,000 MW)
+                    storage_cap_equals: 90.013  # (100,000 MWh)
+            BGR:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.05747083333333333  # (100,000 MW)
+                    storage_cap_equals: 176.89999999999998  # (100,000 MWh)
+            HRV:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.02979166666666667  # (100,000 MW)
+                    storage_cap_equals: 64.149  # (100,000 MWh)
+            CZE:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.24952114237756712  # (100,000 MW)
+                    storage_cap_equals: 425.8269004739338  # (100,000 MWh)
+            DNK:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.0615  # (100,000 MW)
+                    storage_cap_equals: 103.47000000000001  # (100,000 MWh)
+            FRA:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.8501666666666667  # (100,000 MW)
+                    storage_cap_equals: 1372.124  # (100,000 MWh)
+            DEU:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 2.361853900833334  # (100,000 MW)
+                    storage_cap_equals: 2700.311523854999  # (100,000 MWh)
+            GRC:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.020681249999999998  # (100,000 MW)
+                    storage_cap_equals: 38.605000000000004  # (100,000 MWh)
+            HUN:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.2739733333333334  # (100,000 MW)
+                    storage_cap_equals: 675.1389999999999  # (100,000 MWh)
+            ITA:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 1.2753358467105265  # (100,000 MW)
+                    storage_cap_equals: 2685.400254473684  # (100,000 MWh)
+            LVA:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.10281250000000001  # (100,000 MW)
+                    storage_cap_equals: 241.50000000000003  # (100,000 MWh)
+            NLD:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.8528733333333334  # (100,000 MW)
+                    storage_cap_equals: 1307.8390000000002  # (100,000 MWh)
+            POL:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.2694408265737028  # (100,000 MW)
+                    storage_cap_equals: 465.186998875  # (100,000 MWh)
+            PRT:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.026283333333333336  # (100,000 MW)
+                    storage_cap_equals: 35.7  # (100,000 MWh)
+            ROU:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.1615172916666667  # (100,000 MW)
+                    storage_cap_equals: 461.3215  # (100,000 MWh)
+            SVK:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.2028179166666667  # (100,000 MW)
+                    storage_cap_equals: 391.93300000000005  # (100,000 MWh)
+            ESP:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.07100000000000002  # (100,000 MW)
+                    storage_cap_equals: 319.75  # (100,000 MWh)
+            SWE:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.0033000000000000004  # (100,000 MW)
+                    storage_cap_equals: 0.9700000000000001  # (100,000 MWh)
+            GBR:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.9131004166666666  # (100,000 MW)
+                    storage_cap_equals: 603.77  # (100,000 MWh)
+            SRB:
+                techs.methane_storage.constraints:
+                    energy_cap_equals: 0.01783229166666667  # (100,000 MW)
+                    storage_cap_equals: 100.7  # (100,000 MWh)

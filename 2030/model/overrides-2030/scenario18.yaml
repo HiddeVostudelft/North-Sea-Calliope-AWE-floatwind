@@ -1,0 +1,81 @@
+overrides:
+    scenario18:
+        tech_groups:
+            pv_on_roof:
+               costs:
+                    monetary:
+                        energy_cap: 96.99 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+                        om_annual: 1.24 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+            wind_onshore:
+                costs:
+                    monetary:
+                        energy_cap: 95.0 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+                        om_annual: 3.90 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)	
+                        om_prod: 0.00013500000000000003 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+                        
+        techs:
+            open_field_pv:
+                costs:
+                    monetary:
+                        energy_cap: 75.16 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+                        om_annual: 1.52 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+            wind_onshore_monopoly:
+                essentials:
+                    name: Onshore wind competing with AWE 
+                    parent: wind_onshore
+                constraints:
+                    resource_area_per_energy_cap: 1.25 # (0.1 km^2/MW) from [@EuropeanEnvironmentAgency:2009]           
+            wind_onshore_competing:
+                constraints:
+                    resource_area_per_energy_cap: 1.25 # (0.1 km^2/MW) from [@EuropeanEnvironmentAgency:2009]
+            wind_offshore:
+                costs:
+                    monetary:
+                        energy_cap: 275.12 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+                        om_annual: 8.71 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+            wind_floating:
+                costs:
+                    monetary:
+                        energy_cap: 404.24 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+                        om_annual: 7.06 # (10,000 EUR2022/MW) | National Renewable Energy Laboratory ATB 2022, 2030 moderate scenario)
+            #AWE_start
+            awe_onshore_sw: 
+                constraints: 
+                    resource_area_per_energy_cap: 2.5
+                costs:
+                    monetary:
+                        energy_cap: 164.88 #BVG_2030
+                        om_annual: 1.59
+            #AWE end
+            #AWE_start
+            awe_offshore_fixed_fw1: 
+                constraints: 
+                    resource_area_per_energy_cap: 2
+                costs:
+                    monetary:
+                        energy_cap: 282.0 #ampyx 2030
+                        om_annual: 8.80
+            #AWE end
+            #AWE_start
+            awe_offshore_fixed_fw2: 
+                constraints: 
+                    resource_area_per_energy_cap: 2
+                costs:
+                    monetary:
+                        energy_cap: 370.0 #ampyx 2030
+                        om_annual: 12.20
+            #AWE end
+            #AWE_start
+            awe_offshore_float_fw1: 
+                costs:
+                    monetary:
+                        energy_cap: 312.0 #ampyx 2030
+                        om_annual: 9.96
+            #AWE end
+            #AWE_start
+            awe_offshore_float_fw2: 
+                costs:
+                    monetary:
+                        energy_cap: 400.0 #ampyx 2030
+                        om_annual: 13.36
+            #AWE end

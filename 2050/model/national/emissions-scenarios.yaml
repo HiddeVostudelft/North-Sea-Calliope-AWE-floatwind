@@ -1,0 +1,147 @@
+
+overrides:
+    2030_current:
+        group_constraints:
+            systemwide_co2_max_0:
+                locs: ['AUT', 'BEL', 'BGR', 'HRV', 'CYP', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'DEU', 'GRC', 'HUN', 'IRL', 'ITA', 'LVA', 'LTU', 'LUX', 'NLD', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE', 'GBR']
+                cost_max.co2: 2494.922  # (1e+06 tCO2)
+            systemwide_co2_max_1:
+                locs: ['CHE']
+                cost_max.co2: 22.683999999999997  # (1e+06 tCO2)
+            systemwide_co2_max_2:
+                locs: ['NOR']
+                cost_max.co2: 22.896000000000004  # (1e+06 tCO2)
+            systemwide_co2_max_3:
+                locs: ['ISL']
+                cost_max.co2: 1.4310000000000003  # (1e+06 tCO2)
+            systemwide_co2_max_4:
+                locs: ['ALB']
+                cost_max.co2: 4.49175  # (1e+06 tCO2)
+            systemwide_co2_max_5:
+                locs: ['SRB']
+                cost_max.co2: 32.595  # (1e+06 tCO2)
+            systemwide_co2_max_6:
+                locs: ['BIH']
+                cost_max.co2: 11.964749999999999  # (1e+06 tCO2)
+            systemwide_co2_max_7:
+                locs: ['MKD']
+                cost_max.co2: 5.5649999999999995  # (1e+06 tCO2)
+            systemwide_co2_max_8:
+                locs: ['MNE']
+                cost_max.co2: 1.0335  # (1e+06 tCO2)
+    2030_neutral:
+        group_constraints:
+            systemwide_co2_max_0:
+                locs: ['AUT', 'BEL', 'BGR', 'HRV', 'CYP', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'DEU', 'GRC', 'HUN', 'IRL', 'ITA', 'LVA', 'LTU', 'LUX', 'NLD', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE', 'GBR']
+                cost_max.co2: 2118.3299999999995  # (1e+06 tCO2)
+            systemwide_co2_max_1:
+                locs: ['CHE']
+                cost_max.co2: 19.259999999999994  # (1e+06 tCO2)
+            systemwide_co2_max_2:
+                locs: ['NOR']
+                cost_max.co2: 19.439999999999994  # (1e+06 tCO2)
+            systemwide_co2_max_3:
+                locs: ['ISL']
+                cost_max.co2: 1.2149999999999996  # (1e+06 tCO2)
+            systemwide_co2_max_4:
+                locs: ['ALB']
+                cost_max.co2: 3.8137499999999993  # (1e+06 tCO2)
+            systemwide_co2_max_5:
+                locs: ['SRB']
+                cost_max.co2: 27.674999999999994  # (1e+06 tCO2)
+            systemwide_co2_max_6:
+                locs: ['BIH']
+                cost_max.co2: 10.15875  # (1e+06 tCO2)
+            systemwide_co2_max_7:
+                locs: ['MKD']
+                cost_max.co2: 4.725  # (1e+06 tCO2)
+            systemwide_co2_max_8:
+                locs: ['MNE']
+                cost_max.co2: 0.8775  # (1e+06 tCO2)
+    2030_neutral_extra:
+        group_constraints:
+            systemwide_co2_max_0:
+                locs: ['AUT', 'BEL', 'BGR', 'HRV', 'CYP', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'DEU', 'GRC', 'HUN', 'IRL', 'ITA', 'LVA', 'LTU', 'LUX', 'NLD', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE', 'GBR']
+                cost_max.co2: 1647.5899999999997  # (1e+06 tCO2)
+            systemwide_co2_max_1:
+                locs: ['CHE']
+                cost_max.co2: 14.979999999999997  # (1e+06 tCO2)
+            systemwide_co2_max_2:
+                locs: ['NOR']
+                cost_max.co2: 8.207999999999998  # (1e+06 tCO2)
+            systemwide_co2_max_3:
+                locs: ['ISL']
+                cost_max.co2: 0.2699999999999999  # (1e+06 tCO2)
+            systemwide_co2_max_4:
+                locs: ['ALB']
+                cost_max.co2: 2.5425000000000004  # (1e+06 tCO2)
+            systemwide_co2_max_5:
+                locs: ['SRB']
+                cost_max.co2: 18.450000000000003  # (1e+06 tCO2)
+            systemwide_co2_max_6:
+                locs: ['BIH']
+                cost_max.co2: 6.772500000000001  # (1e+06 tCO2)
+            systemwide_co2_max_7:
+                locs: ['MKD']
+                cost_max.co2: 3.1500000000000004  # (1e+06 tCO2)
+            systemwide_co2_max_8:
+                locs: ['MNE']
+                cost_max.co2: 0.5850000000000001  # (1e+06 tCO2)
+    2050_current:
+        group_constraints:
+            systemwide_co2_max_0:
+                locs: ['AUT', 'BEL', 'BGR', 'HRV', 'CYP', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'DEU', 'GRC', 'HUN', 'IRL', 'ITA', 'LVA', 'LTU', 'LUX', 'NLD', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE', 'GBR']
+                cost_max.co2: 1694.6639999999998  # (1e+06 tCO2)
+            systemwide_co2_max_1:
+                locs: ['CHE']
+                cost_max.co2: 15.407999999999998  # (1e+06 tCO2)
+            systemwide_co2_max_2:
+                locs: ['NOR']
+                cost_max.co2: 15.552  # (1e+06 tCO2)
+            systemwide_co2_max_3:
+                locs: ['ISL']
+                cost_max.co2: 0.972  # (1e+06 tCO2)
+            systemwide_co2_max_4:
+                locs: ['ALB']
+                cost_max.co2: 3.0509999999999993  # (1e+06 tCO2)
+            systemwide_co2_max_5:
+                locs: ['SRB']
+                cost_max.co2: 22.14  # (1e+06 tCO2)
+            systemwide_co2_max_6:
+                locs: ['BIH']
+                cost_max.co2: 8.126999999999999  # (1e+06 tCO2)
+            systemwide_co2_max_7:
+                locs: ['MKD']
+                cost_max.co2: 3.78  # (1e+06 tCO2)
+            systemwide_co2_max_8:
+                locs: ['MNE']
+                cost_max.co2: 0.702  # (1e+06 tCO2)
+    2050_neutral:
+        group_constraints:
+            systemwide_co2_max_0:
+                locs: ['AUT', 'BEL', 'BGR', 'HRV', 'CYP', 'CZE', 'DNK', 'EST', 'FIN', 'FRA', 'DEU', 'GRC', 'HUN', 'IRL', 'ITA', 'LVA', 'LTU', 'LUX', 'NLD', 'POL', 'PRT', 'ROU', 'SVK', 'SVN', 'ESP', 'SWE', 'GBR']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_1:
+                locs: ['CHE']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_2:
+                locs: ['NOR']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_3:
+                locs: ['ISL']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_4:
+                locs: ['ALB']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_5:
+                locs: ['SRB']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_6:
+                locs: ['BIH']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_7:
+                locs: ['MKD']
+                cost_max.co2: 0.0  # (1e+06 tCO2)
+            systemwide_co2_max_8:
+                locs: ['MNE']
+                cost_max.co2: 0.0  # (1e+06 tCO2)

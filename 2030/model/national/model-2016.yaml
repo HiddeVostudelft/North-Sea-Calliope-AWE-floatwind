@@ -1,0 +1,111 @@
+import:
+    - '../interest-rate.yaml'
+    - '../renewable-techs.yaml'
+    - '../storage-techs.yaml'
+    - '../link-techs.yaml'
+    - '../heat-techs.yaml'
+    - '../transformation-techs.yaml'
+    - '../transport-techs.yaml'
+    - '../demand-techs.yaml'
+    - '../legacy-techs.yaml'
+    - '../spores.yaml'
+    - '../overrides-2030/renewable-techs.yaml'
+    - '../overrides-2030/storage-techs.yaml'
+    - '../overrides-2030/heat-techs.yaml'
+    - '../overrides-2030/transformation-techs.yaml'
+    - '../overrides-2030/scenario5.yaml'    
+    - '../overrides-2030/scenario6.yaml' 
+    - '../overrides-2030/scenario7.yaml'
+    - '../overrides-2030/scenario8.yaml'
+    - '../overrides-2030/scenario13.yaml'
+    - '../overrides-2030/scenario14.yaml'
+    - '../overrides-2030/scenario15.yaml'
+    - '../overrides-2030/scenario16.yaml'
+    - '../overrides-2030/scenario18.yaml'
+    - '../config_overrides.yaml'
+    - '../north_sea_overrides.yaml'
+    - '../brown-field-capacities-national.yaml'
+    - '../demand_share.yaml'
+    - './locations.yaml'
+    - './links.yaml'
+    - './directional-rooftop.yaml'
+    - './vehicle_group_constraints_2015.yaml'
+    - './heat_group_constraints_2015.yaml'
+    - './fuel_group_constraints_2015.yaml'
+    - './emissions-scenarios.yaml'
+    - './gas_storage.yaml'
+    - './coal_supply.yaml'
+    - './fossil-fuel-supply.yaml'
+    - './fuel-distribution.yaml'
+    - './biofuel-supply-2015.yaml'
+    - '../../../temp_overrides/freeze-plan-results.yaml'
+model:
+    name: 'Euro-Calliope'
+    calliope_version: 0.6.8
+    timeseries_data_path: './'
+    subset_time: ['2016-01-01', '2016-12-31']
+run:
+    objective_options:
+        cost_class:
+            monetary: 1
+        sense: 'minimize'
+    solver: gurobi
+    solver_io: python
+    mode: plan
+    solver_options:
+        Threads: 6
+        Method: 2 # use barrier, but do not run simplex in parallel
+        Crossover: 0 # stop after barrier, do not perform crossover
+        FeasibilityTol: 1e-3
+        OptimalityTol: 1e-4
+        BarConvTol: 1e-4
+    relax_constraint.demand_share_per_timestep_decision_main_constraint: 0.025
+overrides:
+    no-hydro-costs:
+        # Because we force all hydro to current levels, there
+        # should be annual O&M costs and variable costs only.
+        techs.pumped_hydro.costs.monetary.storage_cap: 0
+        techs.pumped_hydro.costs.monetary.energy_cap: 0
+        techs.hydro_run_of_river.costs.monetary.energy_cap: 0
+        techs.hydro_run_of_river.costs.monetary.om_con: 0
+        techs.hydro_reservoir.costs.monetary.storage_cap: 0
+        techs.hydro_reservoir.costs.monetary.energy_cap: 0
+        techs.hydro_reservoir.costs.monetary.om_con: 0
+    stylised-storage:
+        # Transform battery and hydrogen to stylised short term
+        # and long term storage solutions.
+        techs:
+            load_shedding.exists: False
+            battery:
+                constraints:
+                    energy_cap_per_storage_cap_min: 0.25 # max 4h full-power discharge
+                costs:
+                    monetary:
+                        om_prod: 0 # ASSUME 0 instead of 0.000378 €/kWh, as the tiny number causes numerical issues
+            hydrogen_storage:
+                constraints:
+                    energy_cap_per_storage_cap_max: 0.25 # min 4h full-power discharge
+
+    res_1h:
+        model.time: null
+
+    res_2h:
+        model.time:
+            function: resample
+            function_options.resolution: 2H
+    res_3h:
+        model.time:
+            function: resample
+            function_options.resolution: 3H
+    res_6h:
+        model.time:
+            function: resample
+            function_options.resolution: 6H
+    res_12h:
+        model.time:
+            function: resample
+            function_options.resolution: 12H
+    res_24h:
+        model.time:
+            function: resample
+            function_options.resolution: 24H

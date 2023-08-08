@@ -1,0 +1,38 @@
+overrides:
+    north_sea:
+        locations:
+            ALB.exists: False
+            AUT.exists: False
+#            BEL.exists: False
+            BGR.exists: False
+            BIH.exists: False
+            CHE.exists: False
+            CYP.exists: False
+            CZE.exists: False
+#            DEU.exists: False
+#            DNK.exists: False
+            ESP.exists: False
+            EST.exists: False
+            FIN.exists: False
+#            FRA.exists: False
+#            GBR.exists: False
+            GRC.exists: False
+            HRV.exists: False
+            HUN.exists: False
+#            IRL.exists: False
+            ISL.exists: False
+            ITA.exists: False
+            LTU.exists: False
+#            LUX.exists: False
+            LVA.exists: False
+            MKD.exists: False
+            MNE.exists: False
+#            NLD.exists: False
+#            NOR.exists: False
+            POL.exists: False
+            PRT.exists: False
+            ROU.exists: False
+            SRB.exists: False
+            SVK.exists: False
+            SVN.exists: False
+#            SWE.exists: False

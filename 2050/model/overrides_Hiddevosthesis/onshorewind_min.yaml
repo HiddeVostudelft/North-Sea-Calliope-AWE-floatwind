@@ -1,0 +1,39 @@
+overrides:
+    onshorewind_cap_min:
+        group_constraints:
+            onshorewind_DEU:
+                techs: [wind_onshore_competing]
+                locs: [DEU]
+                energy_cap_min: 1.15 # (100,000 MW)
+            onshorewind_DNK:
+                techs: [wind_onshore_competing]
+                locs: [DNK]
+                energy_cap_min: 0.115  # (100,000 MW)
+            onshorewind_FRA:
+                techs: [wind_onshore_competing]
+                locs: [FRA]
+                energy_cap_min: 0.35  # (100,000 MW)
+            onshorewind_GBR:
+                techs: [wind_onshore_competing]
+                locs: [GBR]
+                energy_cap_min: 0.2  # (100,000 MW)
+            onshorewind_IRL:
+                techs: [wind_onshore_competing]
+                locs: [IRL]
+                energy_cap_min: 0.08  # (100,000 MW)
+            onshorewind_NOR:
+                techs: [wind_onshore_competing]
+                locs: [NOR]
+                energy_cap_min: 0.1 # (100,000 MW)
+            onshorewind_SWE:
+                techs: [wind_onshore_competing]
+                locs: [SWE]
+                energy_cap_min: 0.3  # (100,000 MW)
+            onshorewind_NLD:
+                techs: [wind_onshore_competing]
+                locs: [NLD]
+                energy_cap_min: 0.1 # (100,000 MW)
+            onshorewind_BEL:
+                techs: [wind_onshore_competing]
+                locs: [BEL]
+                energy_cap_min: 0.09  # (100,000 MW)

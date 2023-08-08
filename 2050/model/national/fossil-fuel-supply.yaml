@@ -1,0 +1,267 @@
+
+overrides:
+    fossil-fuel-supply:
+        techs:  # emissions from [IPCC2006] https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/2_Volume2/V2_2_Ch2_Stationary_Combustion.pdf
+            methane_supply:
+                essentials:
+                    name: Natural gas
+                    carrier: methane
+                    parent: supply
+                costs:
+                    monetary:
+                        om_prod: 0.0032074509402532712  # (10,000 EUR2015/MWh)
+                    co2:
+                        om_prod: 0.019999999999999997   # (10 tCO2/MWh)
+            diesel_supply:
+                essentials:
+                    name: Diesel
+                    carrier: diesel
+                    parent: supply
+                costs:
+                    monetary:
+                        om_prod: 0.004490732624039173  # (10,000 EUR2015/MWh)
+                    co2:
+                        om_prod: 0.026   # (10 tCO2/MWh)
+            kerosene_supply:
+                essentials:
+                    name: Kerosene
+                    carrier: kerosene
+                    parent: supply
+                costs:
+                    monetary:
+                        om_prod: 0.004490732624039173  # (10,000 EUR2015/MWh)
+                    co2:
+                        om_prod: 0.027   # (10 tCO2/MWh)
+            methanol_supply:
+                essentials:
+                    name: Methanol
+                    carrier: methanol
+                    parent: supply
+                costs:
+                    monetary:
+                        om_prod: 0.004490732624039173  # (10,000 EUR2015/MWh)
+                    co2:
+                        om_prod: 0.026   # (10 tCO2/MWh) | ASSUME: same as emissions for crude oil
+            coal_supply:
+                essentials:
+                    name: Coal
+                    carrier: coal
+                    parent: supply
+                costs:
+                    monetary:
+                        om_prod: 0.0010934619388146827  # (10,000 EUR2015/MWh)
+                    co2:
+                        om_prod: 0.034   # (10 tCO2/MWh)
+
+
+        locations:
+            AUT.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            BEL.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            BGR.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            HRV.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            CYP.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            CZE.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            DNK.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            EST.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            FIN.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            FRA.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            DEU.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            GRC.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            HUN.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            IRL.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            ITA.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            LVA.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            LTU.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            LUX.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            NLD.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            POL.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            PRT.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            ROU.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            SVK.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            SVN.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            ESP.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            SWE.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            GBR.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            ALB.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            BIH.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            MKD.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            MNE.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            NOR.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            SRB.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            CHE.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:
+            ISL.techs:
+                diesel_supply:
+                kerosene_supply:
+                methanol_supply:
+                methane_supply:
+                coal_supply:

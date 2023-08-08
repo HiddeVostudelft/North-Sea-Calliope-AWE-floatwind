@@ -1,0 +1,18 @@
+overrides:
+    hydrogen_share_80:
+        group_constraints:
+            hydrogen_share_diesel:
+                techs: [hydrogen_to_liquids]
+                carrier_prod_share_min.syn_diesel: 0.8
+            hydrogen_share_kerosene:
+                techs: [hydrogen_to_liquids]
+                carrier_prod_share_min.syn_kerosene: 0.8
+            hydrogen_share_methane:
+                techs: [hydrogen_to_methane]
+                carrier_prod_share_min.syn_methane: 0.8
+            hydrogen_share_methanol:
+                techs: [hydrogen_to_methanol]
+                carrier_prod_share_min.syn_methanol: 0.8
+
+
+

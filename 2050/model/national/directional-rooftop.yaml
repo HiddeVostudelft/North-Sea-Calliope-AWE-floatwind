@@ -1,0 +1,516 @@
+overrides:
+    directional-rooftop-pv:
+        techs:
+            roof_mounted_pv_s_flat:
+                essentials:
+                    name: Roof mounted PV south-facing and flat
+                    parent: pv_on_roof
+                constraints:
+                    resource: file=capacityfactors-rooftop-pv-s-flat.csv
+                    resource_unit: energy_per_cap
+            roof_mounted_pv_n:
+                essentials:
+                    name: Roof mounted PV north-facing
+                    parent: pv_on_roof
+                constraints:
+                    resource: file=capacityfactors-rooftop-pv-n.csv
+                    resource_unit: energy_per_cap
+            roof_mounted_pv_e_w:
+                essentials:
+                    name: Roof mounted PV east-facing and west-facing
+                    parent: pv_on_roof
+                constraints:
+                    resource: file=capacityfactors-rooftop-pv-e-w.csv
+                    resource_unit: energy_per_cap
+        locations:
+            
+            AUT:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.3131894836483135 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.1708391749591671 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.31412971025788505 # (100,000 MW)
+            
+            BEL:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.36433880013442477 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.1987401980919393 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.36543258218226154 # (100,000 MW)
+            
+            BGR:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.2994927103677866 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.16336783390521414 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.30039181787414443 # (100,000 MW)
+            
+            HRV:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.25433948113277555 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.13873756746269983 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.25510303406322515 # (100,000 MW)
+            
+            CYP:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.07827394056239402 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.0426970129095977 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.07850892687449969 # (100,000 MW)
+            
+            CZE:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.3754103672713465 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.20477953687542375 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.3765373872871716 # (100,000 MW)
+            
+            DNK:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.26271763652162 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.14330769905727517 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.26350634152468705 # (100,000 MW)
+            
+            EST:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.057961860759274515 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.031617142299490184 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.05813586814672356 # (100,000 MW)
+            
+            FIN:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.21325110459006955 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.11632460433508146 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.21389130604485804 # (100,000 MW)
+            
+            FRA:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 2.927853062724004 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 1.5970906679584254 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 2.9366427747105663 # (100,000 MW)
+            
+            DEU:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 2.9287654586141945 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 1.5975883633449386 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 2.937557909705801 # (100,000 MW)
+            
+            GRC:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.3006140143998926 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.16397948488880362 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.3015164881747347 # (100,000 MW)
+            
+            HUN:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.3843875469192156 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.2096764253233908 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.38554151733926734 # (100,000 MW)
+            
+            IRL:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.1407334905794832 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.07676756300898259 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.14115598679857502 # (100,000 MW)
+            
+            ITA:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 1.609550611193455 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.8779806245987715 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 1.6143826454510157 # (100,000 MW)
+            
+            LVA:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.07072198620798772 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.038577558973255384 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.07093430078681687 # (100,000 MW)
+            
+            LTU:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.13591494952106759 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.07413913637939952 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.13632297999095971 # (100,000 MW)
+            
+            LUX:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.019082135592480325 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.010408958382328656 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.0191394220998129 # (100,000 MW)
+            
+            NLD:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.6077232406997258 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.33150198989834945 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.6095476875346095 # (100,000 MW)
+            
+            POL:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 1.0135092317519612 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.5528508778424837 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 1.0165518893075058 # (100,000 MW)
+            
+            PRT:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.4638410370840997 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.2530168611173249 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.46523353494385383 # (100,000 MW)
+            
+            ROU:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.7036549766585416 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.3838310094832093 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.7057674202990656 # (100,000 MW)
+            
+            SVK:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.21096486702369274 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.11507750326690173 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.21159820496132017 # (100,000 MW)
+            
+            SVN:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.0865650277241889 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.04721965036771277 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.08682490472125942 # (100,000 MW)
+            
+            ESP:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.9776962054556012 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.5333155224595699 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.9806313486722197 # (100,000 MW)
+            
+            SWE:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.29827596730091577 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.1627041226615923 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.2991714220211226 # (100,000 MW)
+            
+            GBR:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 1.4437103371783993 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.7875177672330086 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 1.4480445021053832 # (100,000 MW)
+            
+            ALB:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.05401153158333129 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.02946230948271178 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.054173679681750166 # (100,000 MW)
+            
+            BIH:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.14666277344510142 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.080001879120309 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.14710306997300626 # (100,000 MW)
+            
+            MKD:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.04249570490984704 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.023180635190991315 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.04262328132806933 # (100,000 MW)
+            
+            MNE:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.027263900893786223 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.014871962751128662 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.027345749890765467 # (100,000 MW)
+            
+            NOR:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.11311597530163466 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.06170271003394482 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.11345556093748467 # (100,000 MW)
+            
+            SRB:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.31187385273669993 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.17012152219230972 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.3128101296887765 # (100,000 MW)
+            
+            CHE:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.2342853320796711 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.12779839339200308 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.23498868041974813 # (100,000 MW)
+            
+            ISL:
+                techs:
+                    roof_mounted_pv:
+                        exists: False
+                    roof_mounted_pv_s_flat:
+                        constraints:
+                            energy_cap_max: 0.0013885153453135398 # (100,000 MW)
+                    roof_mounted_pv_n:
+                        constraints:
+                            energy_cap_max: 0.0007574099016615735 # (100,000 MW)
+                    roof_mounted_pv_e_w:
+                        constraints:
+                            energy_cap_max: 0.0013926838092742527 # (100,000 MW)
+            

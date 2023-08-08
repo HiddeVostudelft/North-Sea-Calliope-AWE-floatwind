@@ -1,0 +1,33 @@
+techs:
+    nuclear:  # see https://github.com/calliope-project/euro-calliope-2.0/issues/3
+        essentials:
+            name: Nuclear power
+            carrier: electricity
+            parent: supply
+        constraints:
+            energy_eff: 0.4
+            lifetime: 50
+            capacity_factor_min: 0.75
+            capacity_factor_max: 0.85
+        costs:
+            monetary:
+                energy_cap: 367.20000000000005  # (10,000 EUR2015/MW)
+                om_annual: 7.6116  # (10,000 EUR2015/MW/year)
+                om_prod:  0.000175  # (10,000 EUR2015/MWh)
+                om_con:  0.000825  # (10,000 EUR2015/MWh)
+
+    ccgt:  # BEIS Electricity Generation Costs (2020), CCGT H Class, 2040
+        essentials:
+            name: Combined cycle gas turbine
+            carrier_out: electricity
+            carrier_in: methane
+            parent: conversion
+        constraints:
+            energy_eff: 0.53
+            lifetime: 25
+        costs:
+            monetary:
+                # GBP2018 to EUR2018 = 1.1301, EUR2018 to EUR2015 = 0.96
+                energy_cap: 65.09376000000002  # (10,000 EUR2015/MW) |
+                om_annual: 1.42121376  # (10,000 EUR2015/MW/year) |
+                om_prod:  0.00043395840000000005  # (10,000 EUR2015/MWh) |

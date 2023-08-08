@@ -1,0 +1,40 @@
+
+overrides:
+    offshorewind_cap_max:
+        group_constraints:
+            Offshorewind_BEL:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [BEL]
+                energy_cap_max: 0.07  # (100,000 MW)
+            Offshorewind_DEU:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [DEU]
+                energy_cap_max: 1.015  # (100,000 MW)
+            Offshorewind_DNK:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [DNK]
+                energy_cap_max: 1.35  # (100,000 MW)
+            Offshorewind_FRA:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [FRA]
+                energy_cap_max: 0.845  # (100,000 MW)
+            Offshorewind_GBR:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [GBR]
+                energy_cap_max: 2.195  # (100,000 MW)
+            Offshorewind_IRL:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [IRL]
+                energy_cap_max: 0.255  # (100,000 MW)
+            Offshorewind_NLD:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [NLD]
+                energy_cap_max: 1.055  # (100,000 MW)
+            Offshorewind_NOR:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [NOR]
+                energy_cap_max: 0.3000 # (100,000 MW)
+            Offshorewind_SWE:
+                techs: [wind_offshore, awe_offshore_fixed_fw1, awe_offshore_fixed_fw2]
+                locs: [SWE]
+                energy_cap_max: 1.14  # (100,000 MW)

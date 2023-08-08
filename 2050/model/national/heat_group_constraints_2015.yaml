@@ -1,0 +1,2150 @@
+
+overrides:
+    heat_storage_max:
+        group_constraints:
+#            storage_small_ALB:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [ALB]
+#                storage_cap_max: 0.7589475038462812  # (0.1 TWh)
+#            storage_big_ALB:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [ALB]
+#                storage_cap_max: 0.7589475038462812  # (0.1 TWh)
+#            storage_small_AUT:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [AUT]
+#                storage_cap_max: 9.755139134199823  # (0.1 TWh)
+#            storage_big_AUT:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [AUT]
+#                storage_cap_max: 9.755139134199823  # (0.1 TWh)
+            storage_small_BEL:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small,hydrogen_heat_storage_small]
+                locs: [BEL]
+                storage_cap_max: 16.98316856996019  # (0.1 TWh)
+            storage_big_BEL:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [BEL]
+                storage_cap_max: 16.98316856996019  # (0.1 TWh)
+#            storage_small_BGR:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [BGR]
+#                storage_cap_max: 3.5581819861201307  # (0.1 TWh)
+#            storage_big_BGR:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [BGR]
+#                storage_cap_max: 3.5581819861201307  # (0.1 TWh)
+#            storage_small_BIH:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [BIH]
+#                storage_cap_max: 1.6193712036689054  # (0.1 TWh)
+#            storage_big_BIH:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [BIH]
+#                storage_cap_max: 1.6193712036689054  # (0.1 TWh)
+#            storage_small_CHE:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [CHE]
+#                storage_cap_max: 8.422132106798003  # (0.1 TWh)
+#            storage_big_CHE:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [CHE]
+#                storage_cap_max: 8.422132106798003  # (0.1 TWh)
+#            storage_small_CYP:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [CYP]
+#                storage_cap_max: 1.1288491892772239  # (0.1 TWh)
+#            storage_big_CYP:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [CYP]
+#                storage_cap_max: 1.1288491892772239  # (0.1 TWh)
+#            storage_small_CZE:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [CZE]
+#                storage_cap_max: 10.942103088143094  # (0.1 TWh)
+#            storage_big_CZE:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [CZE]
+#                storage_cap_max: 10.942103088143094  # (0.1 TWh)
+            storage_small_DEU:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small,hydrogen_heat_storage_small]
+                locs: [DEU]
+                storage_cap_max: 96.5378314962079  # (0.1 TWh)
+            storage_big_DEU:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [DEU]
+                storage_cap_max: 96.5378314962079  # (0.1 TWh)
+            storage_small_DNK:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+                locs: [DNK]
+                storage_cap_max: 5.082604415205909  # (0.1 TWh)
+            storage_big_DNK:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [DNK]
+                storage_cap_max: 5.082604415205909  # (0.1 TWh)
+#            storage_small_ESP:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [ESP]
+#                storage_cap_max: 28.624017846171757  # (0.1 TWh)
+#            storage_big_ESP:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [ESP]
+#                storage_cap_max: 28.624017846171757  # (0.1 TWh)
+#            storage_small_EST:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [EST]
+#                storage_cap_max: 1.4574534528484882  # (0.1 TWh)
+#            storage_big_EST:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [EST]
+#                storage_cap_max: 1.4574534528484882  # (0.1 TWh)
+#            storage_small_FIN:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [FIN]
+#                storage_cap_max: 8.089046646615849  # (0.1 TWh)
+#            storage_big_FIN:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [FIN]
+#                storage_cap_max: 8.089046646615849  # (0.1 TWh)
+            storage_small_FRA:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+                locs: [FRA]
+                storage_cap_max: 76.43575367973469  # (0.1 TWh)
+            storage_big_FRA:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [FRA]
+                storage_cap_max: 76.43575367973469  # (0.1 TWh)
+            storage_small_GBR:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small,hydrogen_heat_storage_small]
+                locs: [GBR]
+                storage_cap_max: 54.49816847173599  # (0.1 TWh)
+            storage_big_GBR:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [GBR]
+                storage_cap_max: 54.49816847173599  # (0.1 TWh)
+#            storage_small_GRC:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [GRC]
+#                storage_cap_max: 8.909363060133723  # (0.1 TWh)
+#            storage_big_GRC:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [GRC]
+#                storage_cap_max: 8.909363060133723  # (0.1 TWh)
+#            storage_small_HRV:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [HRV]
+#                storage_cap_max: 3.936514601373805  # (0.1 TWh)
+#            storage_big_HRV:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [HRV]
+#                storage_cap_max: 3.936514601373805  # (0.1 TWh)
+#            storage_small_HUN:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [HUN]
+#                storage_cap_max: 11.303721682665245  # (0.1 TWh)
+#            storage_big_HUN:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [HUN]
+#                storage_cap_max: 11.303721682665245  # (0.1 TWh)
+            storage_small_IRL:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+                locs: [IRL]
+                storage_cap_max: 3.7068449965275687  # (0.1 TWh)
+            storage_big_IRL:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [IRL]
+                storage_cap_max: 3.7068449965275687  # (0.1 TWh)
+#            storage_small_ISL:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [ISL]
+#                storage_cap_max: 0.38218841778346846  # (0.1 TWh)
+#            storage_big_ISL:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [ISL]
+#                storage_cap_max: 0.38218841778346846  # (0.1 TWh)
+#            storage_small_ITA:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [ITA]
+#                storage_cap_max: 59.80134920411783  # (0.1 TWh)
+#            storage_big_ITA:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [ITA]
+#                storage_cap_max: 59.80134920411783  # (0.1 TWh)
+#            storage_small_LTU:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [LTU]
+#                storage_cap_max: 2.04125255545185  # (0.1 TWh)
+#            storage_big_LTU:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [LTU]
+#                storage_cap_max: 2.04125255545185  # (0.1 TWh)
+            storage_small_LUX:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+                locs: [LUX]
+                storage_cap_max: 1.1596516834273323  # (0.1 TWh)
+            storage_big_LUX:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [LUX]
+                storage_cap_max: 1.1596516834273323  # (0.1 TWh)
+#            storage_small_LVA:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [LVA]
+#                storage_cap_max: 1.7768794408849982  # (0.1 TWh)
+#            storage_big_LVA:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [LVA]
+#                storage_cap_max: 1.7768794408849982  # (0.1 TWh)
+#            storage_small_MKD:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [MKD]
+#                storage_cap_max: 0.8115584454727102  # (0.1 TWh)
+#            storage_big_MKD:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [MKD]
+#                storage_cap_max: 0.8115584454727102  # (0.1 TWh)
+#            storage_small_MNE:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [MNE]
+#                storage_cap_max: 0.3485234636601873  # (0.1 TWh)
+#            storage_big_MNE:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [MNE]
+#                storage_cap_max: 0.3485234636601873  # (0.1 TWh)
+            storage_small_NLD:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small,hydrogen_heat_storage_small]
+                locs: [NLD]
+                storage_cap_max: 22.277965443400095  # (0.1 TWh)
+            storage_big_NLD:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [NLD]
+                storage_cap_max: 22.277965443400095  # (0.1 TWh)
+            storage_small_NOR:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+                locs: [NOR]
+                storage_cap_max: 5.6854756313495685  # (0.1 TWh)
+            storage_big_NOR:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [NOR]
+                storage_cap_max: 5.6854756313495685  # (0.1 TWh)
+#            storage_small_POL:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [POL]
+#                storage_cap_max: 29.836482733199933  # (0.1 TWh)
+#            storage_big_POL:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [POL]
+#                storage_cap_max: 29.836482733199933  # (0.1 TWh)
+#            storage_small_PRT:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [PRT]
+#                storage_cap_max: 5.177425067031133  # (0.1 TWh)
+#            storage_big_PRT:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [PRT]
+#                storage_cap_max: 5.177425067031133  # (0.1 TWh)
+#            storage_small_ROU:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [ROU]
+#                storage_cap_max: 11.644150033021115  # (0.1 TWh)
+#            storage_big_ROU:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [ROU]
+#                storage_cap_max: 11.644150033021115  # (0.1 TWh)
+#            storage_small_SRB:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [SRB]
+#                storage_cap_max: 4.656280615998919  # (0.1 TWh)
+#            storage_big_SRB:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [SRB]
+#                storage_cap_max: 4.656280615998919  # (0.1 TWh)
+#            storage_small_SVK:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [SVK]
+#                storage_cap_max: 3.8335691200149853  # (0.1 TWh)
+#            storage_big_SVK:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [SVK]
+#                storage_cap_max: 3.8335691200149853  # (0.1 TWh)
+#            storage_small_SVN:
+#                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+#                locs: [SVN]
+#                storage_cap_max: 1.628023140804408  # (0.1 TWh)
+#            storage_big_SVN:
+#                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+#                locs: [SVN]
+#                storage_cap_max: 1.628023140804408  # (0.1 TWh)
+            storage_small_SWE:
+                techs: [methane_heat_storage_small, biofuel_heat_storage_small, ashp_heat_storage_small, gshp_heat_storage_small, hp_heat_storage_small, electric_heater_heat_storage_small]
+                locs: [SWE]
+                storage_cap_max: 10.766315538904669  # (0.1 TWh)
+            storage_big_SWE:
+                techs: [chp_biofuel_heat_storage_big, chp_biofuel_extraction_heat_storage_big, chp_methane_extraction_heat_storage_big, chp_methane_back_pressure_simple_heat_storage_big, chp_methane_back_pressure_combined_heat_storage_big, chp_wte_back_pressure_heat_storage_big, hydrogen_heat_storage_big]
+                locs: [SWE]
+                storage_cap_max: 10.766315538904669  # (0.1 TWh)
+    heat_techs:
+        locations:
+            ALB.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            AUT.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            BEL.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            BGR.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            BIH.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            CHE.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            CYP.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            CZE.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            DEU.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            DNK.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            ESP.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            EST.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            FIN.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            FRA.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            GBR.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            GRC.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            HRV.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            HUN.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            IRL.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            ISL.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            ITA.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            LTU.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            LUX.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            LVA.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            MKD.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            MNE.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            NLD.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            NOR.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            POL.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            PRT.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            ROU.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            SRB.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            SVK.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            SVN.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+            SWE.techs:
+                methane_boiler:
+                biofuel_boiler:
+                ashp:
+                gshp:
+                hp:
+                solar_thermal_collector:
+                solar_thermal_energy:
+                electric_heater:
+                electric_hob:
+                gas_hob:
+                chp_biofuel_extraction:
+                chp_methane_extraction:
+                demand_space_heat:
+                demand_water_heat:
+                demand_heat:
+                demand_cooking:
+                methane_heat_storage_small:
+                methane_tech_heat_to_demand:
+                biofuel_heat_storage_small:
+                biofuel_tech_heat_to_demand:
+                ashp_heat_storage_small:
+                ashp_tech_heat_to_demand:
+                gshp_heat_storage_small:
+                gshp_tech_heat_to_demand:
+                hp_heat_storage_small:
+                hp_tech_heat_to_demand:
+                electric_heater_heat_storage_small:
+                electric_heater_tech_heat_to_demand:
+                chp_biofuel_extraction_heat_storage_big:
+                chp_biofuel_extraction_tech_heat_to_demand:
+                chp_methane_extraction_heat_storage_big:
+                chp_methane_extraction_tech_heat_to_demand:
+                waste_supply:
+                chp_wte_back_pressure:
+                chp_wte_back_pressure_heat_storage_big:
+                chp_wte_back_pressure_tech_heat_to_demand:
+                chp_hydrogen:
+                chp_hydrogen_heat_storage_big:
+                chp_hydrogen_tech_heat_to_demand:
+
+    heat_tech_grouping:
+        group_constraints:
+#            cooking_demand_share_ALB:
+#                locs: [ALB]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_ALB:
+#                locs: [ALB]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_AUT:
+#                locs: [AUT]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_AUT:
+#                locs: [AUT]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_BEL:
+                locs: [BEL]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_BEL:
+                locs: [BEL]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand,hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_BGR:
+#                locs: [BGR]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_BGR:
+#                locs: [BGR]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_BIH:
+#                locs: [BIH]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_BIH:
+#                locs: [BIH]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_CHE:
+#                locs: [CHE]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_CHE:
+#                locs: [CHE]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_CYP:
+#                locs: [CYP]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_CYP:
+#                locs: [CYP]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_CZE:
+#                locs: [CZE]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_CZE:
+#                locs: [CZE]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_DEU:
+                locs: [DEU]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_DEU:
+                locs: [DEU]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand,hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_DNK:
+                locs: [DNK]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_DNK:
+                locs: [DNK]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_ESP:
+#                locs: [ESP]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_ESP:
+#                locs: [ESP]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_EST:
+#                locs: [EST]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_EST:
+#                locs: [EST]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_FIN:
+#                locs: [FIN]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_FIN:
+#                locs: [FIN]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_FRA:
+#                locs: [FRA]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_FRA:
+#                locs: [FRA]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_GBR:
+                locs: [GBR]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_GBR:
+                locs: [GBR]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand,hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_GRC:
+#                locs: [GRC]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_GRC:
+#                locs: [GRC]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_HRV:
+#                locs: [HRV]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_HRV:
+#                locs: [HRV]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_HUN:
+#                locs: [HUN]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_HUN:
+#                locs: [HUN]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_IRL:
+                locs: [IRL]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_IRL:
+                locs: [IRL]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_ISL:
+#                locs: [ISL]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_ISL:
+#                locs: [ISL]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_ITA:
+#                locs: [ITA]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_ITA:
+#                locs: [ITA]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_LTU:
+#                locs: [LTU]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_LTU:
+#                locs: [LTU]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_LUX:
+                locs: [LUX]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_LUX:
+                locs: [LUX]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_LVA:
+#                locs: [LVA]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_LVA:
+#                locs: [LVA]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_MKD:
+#                locs: [MKD]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_MKD:
+#                locs: [MKD]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_MNE:
+#                locs: [MNE]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_MNE:
+#                locs: [MNE]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_NLD:
+                locs: [NLD]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_NLD:
+                locs: [NLD]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand,hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_NOR:
+                locs: [NOR]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_NOR:
+                locs: [NOR]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_POL:
+#                locs: [POL]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_POL:
+#                locs: [POL]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_PRT:
+#                locs: [PRT]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_PRT:
+#                locs: [PRT]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_ROU:
+#                locs: [ROU]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_ROU:
+#                locs: [ROU]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_SRB:
+#                locs: [SRB]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_SRB:
+#                locs: [SRB]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_SVK:
+#                locs: [SVK]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_SVK:
+#                locs: [SVK]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+#            cooking_demand_share_SVN:
+#                locs: [SVN]
+#                techs: [electric_hob, gas_hob]
+#                demand_share_per_timestep_decision.cooking: .inf
+#
+#            heating_demand_share_SVN:
+#                locs: [SVN]
+#                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+#                demand_share_per_timestep_decision.heat: .inf
+            cooking_demand_share_SWE:
+                locs: [SWE]
+                techs: [electric_hob, gas_hob]
+                demand_share_per_timestep_decision.cooking: .inf
+
+            heating_demand_share_SWE:
+                locs: [SWE]
+                techs: [methane_tech_heat_to_demand, biofuel_tech_heat_to_demand, ashp_tech_heat_to_demand, gshp_tech_heat_to_demand, hp_tech_heat_to_demand, electric_heater_tech_heat_to_demand, chp_biofuel_extraction_tech_heat_to_demand, chp_methane_extraction_tech_heat_to_demand, chp_wte_back_pressure_tech_heat_to_demand, chp_hydrogen_tech_heat_to_demand]
+                demand_share_per_timestep_decision.heat: .inf
+
+    annual_waste_supply:
+        group_constraints:
+#            waste_supply_ALB:
+#                locs: [ALB]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_AUT:
+#                locs: [AUT]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 65.70465  # (0.1 TWh_waste)
+            waste_supply_BEL:
+                locs: [BEL]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 101.85083333333333  # (0.1 TWh_waste)
+#            waste_supply_BGR:
+#                locs: [BGR]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_BIH:
+#                locs: [BIH]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_CHE:
+#                locs: [CHE]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 127.96  # (0.1 TWh_waste)
+#            waste_supply_CYP:
+#                locs: [CYP]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_CZE:
+#                locs: [CZE]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 13.072222222222225  # (0.1 TWh_waste)
+            waste_supply_DEU:
+                locs: [DEU]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 676.3194444444445  # (0.1 TWh_waste)
+            waste_supply_DNK:
+                locs: [DNK]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 105.31465555555558  # (0.1 TWh_waste)
+#            waste_supply_ESP:
+#                locs: [ESP]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 58.05555555555554  # (0.1 TWh_waste)
+#            waste_supply_EST:
+#                locs: [EST]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 5.288888888888889  # (0.1 TWh_waste)
+#            waste_supply_FIN:
+#                locs: [FIN]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 48.930555555555564  # (0.1 TWh_waste)
+            waste_supply_FRA:
+                locs: [FRA]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 283.2688861111111  # (0.1 TWh_waste)
+            waste_supply_GBR:
+                locs: [GBR]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 176.71111111111114  # (0.1 TWh_waste)
+#            waste_supply_GRC:
+#                locs: [GRC]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 2.8611111111111107  # (0.1 TWh_waste)
+#            waste_supply_HRV:
+#                locs: [HRV]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_HUN:
+#                locs: [HUN]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 16.769444444444446  # (0.1 TWh_waste)
+            waste_supply_IRL:
+                locs: [IRL]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 5.889794444444445  # (0.1 TWh_waste)
+#            waste_supply_ISL:
+#                locs: [ISL]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_ITA:
+#                locs: [ITA]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 200.8055555555556  # (0.1 TWh_waste)
+#            waste_supply_LTU:
+#                locs: [LTU]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 4.450000000000001  # (0.1 TWh_waste)
+            waste_supply_LUX:
+                locs: [LUX]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 3.792647222222223  # (0.1 TWh_waste)
+#            waste_supply_LVA:
+#                locs: [LVA]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_MKD:
+#                locs: [MKD]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+#            waste_supply_MNE:
+#                locs: [MNE]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.0  # (0.1 TWh_waste)
+            waste_supply_NLD:
+                locs: [NLD]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 196.64722222222224  # (0.1 TWh_waste)
+            waste_supply_NOR:
+                locs: [NOR]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 38.361111111111114  # (0.1 TWh_waste)
+#            waste_supply_POL:
+#                locs: [POL]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 4.336111111111111  # (0.1 TWh_waste)
+#            waste_supply_PRT:
+#                locs: [PRT]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 22.872222222222224  # (0.1 TWh_waste)
+#            waste_supply_ROU:
+#                locs: [ROU]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.04722222222222222  # (0.1 TWh_waste)
+#            waste_supply_SRB:
+#                locs: [SRB]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.041666666666666685  # (0.1 TWh_waste)
+#            waste_supply_SVK:
+#                locs: [SVK]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 3.616666666666667  # (0.1 TWh_waste)
+#            waste_supply_SVN:
+#                locs: [SVN]
+#                techs: [waste_supply]
+#                carrier_prod_equals.waste: 0.9166666666666667  # (0.1 TWh_waste)
+            waste_supply_SWE:
+                locs: [SWE]
+                techs: [waste_supply]
+                carrier_prod_equals.waste: 178.15555555555557  # (0.1 TWh_waste)
+
+scenarios:
+    heat: [heat_storage_max, heat_techs, heat_tech_grouping, annual_waste_supply]

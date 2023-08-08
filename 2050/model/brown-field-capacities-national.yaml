@@ -1,0 +1,123 @@
+overrides:
+  brown-field-capacities:
+    group_constraints:
+      solar_BEL:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [BEL]
+        energy_cap_min: 0.04788
+      solar_DEU:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [DEU]
+        energy_cap_min: 0.53184
+      solar_DNK:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [DNK]
+        energy_cap_min: 0.013
+      solar_FRA:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [FRA]
+        energy_cap_min: 0.10213
+      solar_GBR:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [GBR]
+        energy_cap_min: 0.1347
+      solar_IRL:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [IRL]
+        energy_cap_min: 0.0
+      solar_LUX:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [LUX]
+        energy_cap_min: 0.0018
+      solar_NLD:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [NLD]
+        energy_cap_min: 0.079
+      solar_NOR:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [NOR]
+        energy_cap_min: 0.0
+      solar_SWE:
+        techs: [open_field_pv, pv_on_roof]
+        locs: [SWE]
+        energy_cap_min: 0.0
+      onshore_wind_BEL:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [BEL]
+        energy_cap_min: 0.02579
+      onshore_wind_DEU:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [DEU]
+        energy_cap_min: 0.54374
+      onshore_wind_DNK:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [DNK]
+        energy_cap_min: 0.04481
+      onshore_wind_FRA:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [FRA]
+        energy_cap_min: 0.17217
+      onshore_wind_GBR:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [GBR]
+        energy_cap_min: 0.13932
+      onshore_wind_IRL:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [IRL]
+        energy_cap_min: 0.01919
+      onshore_wind_LUX:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [LUX]
+        energy_cap_min: 0.00149
+      onshore_wind_NLD:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [NLD]
+        energy_cap_min: 0.045
+      onshore_wind_NOR:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [NOR]
+        energy_cap_min: 0.03068
+      onshore_wind_SWE:
+        techs: [wind_onshore_monopoly, wind_onshore_competing]
+        locs: [SWE]
+        energy_cap_min: 0.10017
+      offshore_wind_BEL:
+        techs: [wind_offshore]
+        locs: [BEL]
+        energy_cap_min: 0.02254
+      offshore_wind_DEU:
+        techs: [wind_offshore]
+        locs: [DEU]
+        energy_cap_min: 0.07774
+      offshore_wind_DNK:
+        techs: [wind_offshore]
+        locs: [DNK]
+        energy_cap_min: 0.017
+      offshore_wind_FRA:
+        techs: [wind_offshore]
+        locs: [FRA]
+        energy_cap_min: 0.0001
+      offshore_wind_GBR:
+        techs: [wind_offshore]
+        locs: [GBR]
+        energy_cap_min: 0.1216
+      offshore_wind_IRL:
+        techs: [wind_offshore]
+        locs: [IRL]
+        energy_cap_min: 0.0
+      offshore_wind_LUX:
+        techs: [wind_offshore]
+        locs: [LUX]
+        energy_cap_min: 0.0
+      offshore_wind_NLD:
+        techs: [wind_offshore]
+        locs: [NLD]
+        energy_cap_min: 0.02357
+      offshore_wind_NOR:
+        techs: [wind_offshore]
+        locs: [NOR]
+        energy_cap_min: 0.0
+      offshore_wind_SWE:
+        techs: [wind_offshore]
+        locs: [SWE]
+        energy_cap_min: 0.0

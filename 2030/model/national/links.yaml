@@ -1,0 +1,1800 @@
+
+links:
+    AUT,HUN.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.016  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    AUT,ITA.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.023000000000000003  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    AUT,SVN.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.016  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    BEL,DEU.techs:
+        dc_underground_transmission:
+            constraints:
+                energy_cap_min: 0.02  # (100,000 MW)
+            costs.monetary.energy_cap: 75.5  # (10,000 EUR/MW)
+    BEL,GBR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.024  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    BEL,LUX.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    BEL,NLD.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.035  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    BGR,GRC.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.005  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    BGR,MKD.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    BIH,MNE.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.014  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    BIH,SRB.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.031000000000000003  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    CHE,AUT.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.024  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    CHE,ITA.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.07500000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+        dc_underground_transmission:
+            constraints:
+                energy_cap_min: 0.01  # (100,000 MW)
+            costs.monetary.energy_cap: 75.5  # (10,000 EUR/MW)
+    CYP,GRC.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.02  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    CZE,AUT.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.021  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    CZE,POL.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.021  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    CZE,SVK.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.027000000000000003  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    DEU,AUT.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.05500000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.053000000000000005  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    DEU,CHE.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.060000000000000005  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    DEU,CZE.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.037000000000000005  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    DEU,DNK.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.030000000000000002  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.0195  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    DEU,NOR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.014  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    DEU,POL.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.051000000000000004  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    DEU,SWE.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.026000000000000002  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    DNK,NOR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.017  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    DNK,POL.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.006  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    DNK,SWE.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.017  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.0074  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    ESP,FRA.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.02  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.045000000000000005  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+        dc_underground_transmission:
+            constraints:
+                energy_cap_min: 0.043000000000000003  # (100,000 MW)
+            costs.monetary.energy_cap: 75.5  # (10,000 EUR/MW)
+    ESP,PRT.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.035500000000000004  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    EST,FIN.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.01  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    EST,LVA.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.009500000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    FIN,NOR.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.0005  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    FIN,SWE.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.0315  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.008  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    FRA,BEL.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.046000000000000006  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    FRA,CHE.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.095  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    FRA,DEU.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.029  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    FRA,GBR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.07600000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+        dc_underground_transmission:
+            constraints:
+                energy_cap_min: 0.030000000000000002  # (100,000 MW)
+            costs.monetary.energy_cap: 75.5  # (10,000 EUR/MW)
+    FRA,IRL.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    FRA,ITA.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.048  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.018000000000000002  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+        dc_underground_transmission:
+            constraints:
+                energy_cap_min: 0.011000000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 75.5  # (10,000 EUR/MW)
+    GBR,DEU.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.014  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    GBR,DNK.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.014  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    GBR,IRL.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.011000000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.0175  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    GRC,ALB.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.008  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    HRV,BIH.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.04  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    HRV,SRB.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    HUN,HRV.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.023000000000000003  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    HUN,ROU.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.014  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    HUN,SRB.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    ISL,GBR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.01  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    ITA,GRC.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.01  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    ITA,MNE.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.012  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    ITA,SVN.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.026000000000000002  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+        dc_underground_transmission:
+            constraints:
+                energy_cap_min: 0.01  # (100,000 MW)
+            costs.monetary.energy_cap: 75.5  # (10,000 EUR/MW)
+    LTU,LVA.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.015000000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    LTU,SWE.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    LUX,DEU.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.029  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    MKD,ALB.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    MKD,GRC.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.006  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    MNE,ALB.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.009000000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    MNE,SRB.techs:
+        ac_ohl_mountain_transmission:
+            constraints:
+                energy_cap_min: 0.029  # (100,000 MW)
+            costs.monetary.energy_cap: 51.6  # (10,000 EUR/MW)
+    NLD,DEU.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.085  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    NLD,DNK.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    NLD,GBR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.01  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    NLD,NOR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.007  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    NOR,GBR.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.034  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    NOR,SWE.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.04098  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    POL,LTU.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.01  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    POL,SVK.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.006  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    POL,SWE.techs:
+        dc_subsea_transmission:
+            constraints:
+                energy_cap_min: 0.006  # (100,000 MW)
+            costs.monetary.energy_cap: 94.2  # (10,000 EUR/MW)
+    ROU,BGR.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.017  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    ROU,SRB.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.025  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    SRB,ALB.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.009000000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    SRB,BGR.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.009000000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    SRB,MKD.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.019000000000000003  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    SVK,HUN.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.054000000000000006  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    SVN,HRV.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.034  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+    SVN,HUN.techs:
+        ac_ohl_transmission:
+            constraints:
+                energy_cap_min: 0.009000000000000001  # (100,000 MW)
+            costs.monetary.energy_cap: 17.5  # (10,000 EUR/MW)
+
+overrides:
+    transmission_om_cost:
+        tech_groups:
+            dc_transmission.costs.monetary.om_prod: 1e-5  # dummy cost
+            ac_transmission.costs.monetary.om_prod: 1e-5  # dummy cost
+
+    link_cap_20:
+        tech_groups:
+            dc_transmission.constraints.energy_cap_max: 0.2
+            ac_transmission.constraints.energy_cap_max: 0.2
+
+    link_cap_40:
+        tech_groups:
+            dc_transmission.constraints.energy_cap_max: 0.4
+            ac_transmission.constraints.energy_cap_max: 0.4
+
+    link_cap_10_40:
+        tech_groups:
+            dc_transmission.constraints.energy_cap_max: 0.1
+            ac_transmission.constraints.energy_cap_max: 0.4
+
+    link_cap_1x:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.016  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.023000000000000003  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.016  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_equals: 0.02  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.024  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.035  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.005  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.014  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.031000000000000003  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.024  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.07500000000000001  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_equals: 0.01  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.02  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.021  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.021  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.027000000000000003  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.05500000000000001  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.053000000000000005  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.060000000000000005  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.037000000000000005  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.030000000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.0195  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.014  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.051000000000000004  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.026000000000000002  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.017  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.006  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.017  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.0074  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.001  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.02  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.045000000000000005  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_equals: 0.043000000000000003  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.035500000000000004  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.01  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.009500000000000001  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.0005  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.0315  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.008  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.046000000000000006  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.095  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.029  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.07600000000000001  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_equals: 0.030000000000000002  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.048  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.018000000000000002  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_equals: 0.011000000000000001  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.014  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.014  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.011000000000000001  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.0175  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.008  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.04  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.023000000000000003  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.014  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.01  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.01  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.012  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.026000000000000002  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_equals: 0.01  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.015000000000000001  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.029  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.006  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.009000000000000001  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_equals: 0.029  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.085  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.01  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.007  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.034  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.04098  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.01  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.006  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_equals: 0.006  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.017  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.025  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.009000000000000001  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.009000000000000001  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.019000000000000003  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.054000000000000006  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.034  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_equals: 0.009000000000000001  # (100,000 MW)
+
+    link_cap_2x:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.032  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.046000000000000006  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.032  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_max: 0.04  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.048  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.01  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.028  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.062000000000000006  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.048  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.15000000000000002  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.04  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.042  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.042  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.054000000000000006  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.11000000000000001  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.10600000000000001  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.12000000000000001  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07400000000000001  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.060000000000000005  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.039  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.028  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.10200000000000001  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.052000000000000005  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.034  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.012  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.034  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.0148  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.002  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.04  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.09000000000000001  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.08600000000000001  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07100000000000001  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.019000000000000003  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.001  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.063  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.016  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.09200000000000001  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.19  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.058  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.15200000000000002  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.060000000000000005  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.096  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.036000000000000004  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.022000000000000002  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.028  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.028  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.022000000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.016  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.08  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.046000000000000006  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.028  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.024  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.052000000000000005  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.030000000000000002  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.058  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.012  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.018000000000000002  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.058  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.014  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.068  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.08196  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.012  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.012  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.034  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.018000000000000002  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.018000000000000002  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.038000000000000006  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.10800000000000001  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.068  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.018000000000000002  # (100,000 MW)
+
+    link_cap_5x:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.08  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.115  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.08  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.12000000000000001  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17500000000000002  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.025  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.155  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.12000000000000001  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.37500000000000006  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.10500000000000001  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.10500000000000001  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.135  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.275  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.265  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.18500000000000003  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.15000000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.0975  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.255  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.13  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.085  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.030000000000000002  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.085  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.037000000000000005  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.005  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.225  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.21500000000000002  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17750000000000002  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.0475  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.0025  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.1575  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.04  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.23  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.47500000000000003  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.14500000000000002  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.38  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.15000000000000002  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.09000000000000001  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.05500000000000001  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.05500000000000001  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.08750000000000001  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.04  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.115  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.060000000000000005  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.13  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07500000000000001  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.14500000000000002  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.030000000000000002  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.045000000000000005  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.14500000000000002  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.42500000000000004  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.035  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.20490000000000003  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.030000000000000002  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.030000000000000002  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.085  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.125  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.045000000000000005  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.045000000000000005  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.095  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.27  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.045000000000000005  # (100,000 MW)
+
+    link_cap_10x:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.16  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.23  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.16  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.31  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.7500000000000001  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.21000000000000002  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.21000000000000002  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.27  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.55  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.53  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.6000000000000001  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.37000000000000005  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.195  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.51  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.26  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.060000000000000005  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07400000000000001  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.01  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.45  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.43000000000000005  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35500000000000004  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.095  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.005  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.315  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.08  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.46  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.9500000000000001  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.29000000000000004  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.76  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.48000000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.18000000000000002  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.11000000000000001  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.11000000000000001  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.17500000000000002  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.08  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.23  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.12000000000000001  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.26  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.15000000000000002  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.29000000000000004  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.060000000000000005  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.09000000000000001  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.29000000000000004  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.8500000000000001  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.07  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.34  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.40980000000000005  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.060000000000000005  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.060000000000000005  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.25  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.09000000000000001  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.09000000000000001  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.19  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.54  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.34  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.09000000000000001  # (100,000 MW)
+
+    link_cap_50x:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.8  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 1.1500000000000001  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.8  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.2000000000000002  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.7500000000000002  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.25  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.55  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 1.2000000000000002  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 3.7500000000000004  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.05  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.05  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.35  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.7500000000000004  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 2.6500000000000004  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.0000000000000004  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.85  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.5000000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.9750000000000001  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.5500000000000003  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.3  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.8500000000000001  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.8500000000000001  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.37000000000000005  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 2.25  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 2.1500000000000004  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.7750000000000001  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.47500000000000003  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.025  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.5750000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.3000000000000003  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.75  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.4500000000000002  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.8000000000000003  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 1.5000000000000002  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 2.4000000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.9  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.55  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.55  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.8750000000000001  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.0  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.1500000000000001  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.6000000000000001  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.3  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.7500000000000001  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.4500000000000002  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.45  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 1.4500000000000002  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.25  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.7000000000000002  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.0490000000000004  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.8500000000000001  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.25  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.45  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.45  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.9500000000000001  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.7  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.7000000000000002  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.45  # (100,000 MW)
+
+    link_cap_100x:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.6  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 2.3000000000000003  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 1.6  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_max: 2.0  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 2.4000000000000004  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 1.4000000000000001  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.1  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 2.4000000000000004  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 7.500000000000001  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 2.0  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.1  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.1  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.7  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 5.500000000000001  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 5.300000000000001  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 6.000000000000001  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.7  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.0000000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 1.9500000000000002  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.4000000000000001  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 5.1000000000000005  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 2.6  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.7000000000000002  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.6000000000000001  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.7000000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7400000000000001  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.1  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 2.0  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 4.5  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 4.300000000000001  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.5500000000000003  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.9500000000000001  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.05  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.1500000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.8  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.6000000000000005  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 9.5  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.9000000000000004  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 7.6000000000000005  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 3.0000000000000004  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 4.800000000000001  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 1.8  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 1.1  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.4000000000000001  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.4000000000000001  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.1  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 1.7500000000000002  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.8  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.0  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.3000000000000003  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.4000000000000001  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.2000000000000002  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.6  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.5000000000000002  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.9000000000000004  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.6000000000000001  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.9  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 2.9000000000000004  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 8.5  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.7000000000000001  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.4000000000000004  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.098000000000001  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.0  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.6000000000000001  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.6000000000000001  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.7000000000000002  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.5  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.9  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.9  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 1.9000000000000001  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 5.4  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.4000000000000004  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.9  # (100,000 MW)
+
+    link_cap_500x:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 8.0  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 11.500000000000002  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 8.0  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_max: 10.0  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 12.000000000000002  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 17.5  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 2.5  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 7.000000000000001  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 15.500000000000002  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 12.000000000000002  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 37.5  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 5.0  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 10.0  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 10.5  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 10.5  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 13.500000000000002  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 27.500000000000004  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 26.500000000000004  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 30.000000000000004  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 18.5  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 15.000000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 9.75  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 7.000000000000001  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 25.500000000000004  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 13.000000000000002  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 8.5  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.0000000000000004  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 8.5  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 3.7  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.5  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 10.0  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 22.500000000000004  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 21.5  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 17.75  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 5.0  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.75  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.25  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 15.750000000000002  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 4.0  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 23.000000000000004  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 47.50000000000001  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 14.500000000000002  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 38.0  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 15.000000000000002  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 24.000000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 9.0  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 5.500000000000001  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 7.000000000000001  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 7.000000000000001  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 5.500000000000001  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 8.75  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 4.0  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 20.0  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 11.500000000000002  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 7.000000000000001  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 5.0  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 5.0  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 6.000000000000001  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 13.000000000000002  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 5.0  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 7.500000000000001  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 14.500000000000002  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.0000000000000004  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.5  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 14.500000000000002  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 42.5  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 5.0  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.5000000000000004  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 17.0  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 20.490000000000002  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 5.0  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 3.0000000000000004  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 3.0000000000000004  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 8.5  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 12.500000000000002  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.5  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.5  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 9.5  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 27.000000000000004  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 17.0  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 4.5  # (100,000 MW)
+
+
+    link_cap_dynamic:
+        links:
+            AUT,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.16  # (100,000 MW)
+            AUT,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.23  # (100,000 MW)
+            AUT,SVN.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.16  # (100,000 MW)
+            BEL,DEU.techs:
+                dc_underground_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+            BEL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            BEL,LUX.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            BEL,NLD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35000000000000003  # (100,000 MW)
+            BGR,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+            BGR,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            BIH,MNE.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            BIH,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.31  # (100,000 MW)
+            CHE,AUT.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            CHE,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.37500000000000006  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            CYP,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+            CZE,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.21000000000000002  # (100,000 MW)
+            CZE,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.21000000000000002  # (100,000 MW)
+            CZE,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.27  # (100,000 MW)
+            DEU,AUT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.275  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.265  # (100,000 MW)
+            DEU,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            DEU,CZE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.37000000000000005  # (100,000 MW)
+            DEU,DNK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.195  # (100,000 MW)
+            DEU,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            DEU,POL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.255  # (100,000 MW)
+            DEU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.26  # (100,000 MW)
+            DNK,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+            DNK,POL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            DNK,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.29600000000000004  # (100,000 MW)
+            ESP,FRA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.04  # (100,000 MW)
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.2  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.45  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.43000000000000005  # (100,000 MW)
+            ESP,PRT.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.35500000000000004  # (100,000 MW)
+            EST,FIN.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            EST,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.38  # (100,000 MW)
+            FIN,NOR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.02  # (100,000 MW)
+            FIN,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.315  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.32  # (100,000 MW)
+            FRA,BEL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.46  # (100,000 MW)
+            FRA,CHE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.47500000000000003  # (100,000 MW)
+            FRA,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.29000000000000004  # (100,000 MW)
+            FRA,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.38  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.30000000000000004  # (100,000 MW)
+            FRA,IRL.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            FRA,ITA.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.48000000000000004  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.18000000000000002  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.11000000000000001  # (100,000 MW)
+            GBR,DEU.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            GBR,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            GBR,IRL.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.11000000000000001  # (100,000 MW)
+                dc_subsea_transmission.constraints.energy_cap_max: 0.17500000000000002  # (100,000 MW)
+            GRC,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.32  # (100,000 MW)
+            HRV,BIH.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            HRV,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            HUN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.23  # (100,000 MW)
+            HUN,ROU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.14  # (100,000 MW)
+            HUN,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            ISL,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            ITA,GRC.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            ITA,MNE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.12000000000000001  # (100,000 MW)
+            ITA,SVN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.26  # (100,000 MW)
+                dc_underground_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            LTU,LVA.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.15000000000000002  # (100,000 MW)
+            LTU,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            LUX,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.29000000000000004  # (100,000 MW)
+            MKD,ALB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            MKD,GRC.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            MNE,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.36000000000000004  # (100,000 MW)
+            MNE,SRB.techs:
+                ac_ohl_mountain_transmission.constraints.energy_cap_max: 0.29000000000000004  # (100,000 MW)
+            NLD,DEU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.42500000000000004  # (100,000 MW)
+            NLD,DNK.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            NLD,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            NLD,NOR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.28  # (100,000 MW)
+            NOR,GBR.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.34  # (100,000 MW)
+            NOR,SWE.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.40980000000000005  # (100,000 MW)
+            POL,LTU.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.4  # (100,000 MW)
+            POL,SVK.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            POL,SWE.techs:
+                dc_subsea_transmission.constraints.energy_cap_max: 0.24000000000000002  # (100,000 MW)
+            ROU,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.17  # (100,000 MW)
+            ROU,SRB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.25  # (100,000 MW)
+            SRB,ALB.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.36000000000000004  # (100,000 MW)
+            SRB,BGR.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.36000000000000004  # (100,000 MW)
+            SRB,MKD.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.19  # (100,000 MW)
+            SVK,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.27  # (100,000 MW)
+            SVN,HRV.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.34  # (100,000 MW)
+            SVN,HUN.techs:
+                ac_ohl_transmission.constraints.energy_cap_max: 0.36000000000000004  # (100,000 MW)
