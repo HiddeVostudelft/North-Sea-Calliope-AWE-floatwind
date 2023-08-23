@@ -33,11 +33,9 @@ b. Include specific scenarios to pick up the relevant sectors. The default is:
 
 * `north_sea`: Kills leftover countries from the full-scale Euro-Calliope model, subsetting the scope to the North-Sea region.
 
-In addition, you can model 202, 2030 or 2050 projection years. To model the 2020 or 2030 year, you need to add some additional overrides. 
+In addition, you can model 2030 or 2050 projection years. To model the 2020 or 2030 year, you need to add some additional overrides. 
 
 For instance, for 2030: `industry_fuel,transport,heat,config_overrides,gas_storage,link_cap_1x,freeze-hydro-capacities,synfuel_transmission,heat_techs_2030,renewable_techs_2030,transformation_techs_2030,2030_neutral,fossil-fuel-supply,res_24h,add-biofuel,coal_supply,north_sea`. Here, various technology overrides are applied, along with fossil fuel technologies and a corresponding emission cap scenario.
-
-For 2020 you also want to have: `industry_fuel,transport,heat,config_overrides,gas_storage,link_cap_1x,freeze-hydro-capacities,synfuel_transmission,heat_techs_2020,renewable_techs_2020,transformation_techs_2020,fossil-fuel-supply,res_24h,add-biofuel,coal_supply,north_sea,fix-generation-capacities,demand_share_fuel_current,kill-fancy-techs`
 
 c. run the model via the dedicated scripts found in this directory. This is a new part of the process, since we now rely on a new version of Calliope with all custom Euro-Calliope constraints added as 'custom constraints'. These scripts have been copied directly from snakemake, but you can load and run them in an interactive session / with your own python script to call them:
 
