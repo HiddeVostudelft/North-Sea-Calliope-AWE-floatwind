@@ -33,7 +33,26 @@ b. Include specific scenarios to pick up the relevant sectors. The default is:
 
 * `north_sea`: Kills leftover countries from the full-scale Euro-Calliope model, subsetting the scope to the North-Sea region.
 
-In addition, you can model 2030 or 2050 projection years. To model the 2020 or 2030 year, you need to add some additional overrides. 
+In addition, the North-Sea-Calliope-AWE-floatwind workflow has some extra scenarios that are included in the folder overrrides_Hiddevosthesis, being:
+
+* The technologies are defined in renewables-techs.yaml. In locations.yaml, the available land area (in km^2), and minimal installed capacities of floating wind and offshore wind are defined, as well as max installed capacity for other technologies. 
+
+*'scenario_2050' : These files all represent a different scenario throughout which cost inputs of one technology are varied. 
+scenario_2050_1_1 to scenario_2050_1_9 are for the offshore AWE scenarios
+scenario_2050_2_1 to scenario_2050_2_11 are for the onshore AWE scenarios with power density of 2MW/km^2. To run the 4MW/km^2 or 8MW/km^2 scenarios, simply change the resource_area_per_energy_cap constraint in the renewable-techs.yaml file to 2.5 or 1.25 respectively and change the output netcdf file names.
+scenario_2050_5_1 to scenario_2050_5_9 are for the floating wind scenarios. When running these scenarios, you have to disable the AWE techs by commenting the lines in renewable-techs.yaml where they are defined. Additionally, the awe techs have to be left out in the floatwind_groupconstraints.yaml and offshorewind_groupconstraints.yaml scenarios. Lastly, the awe techs have to be commented in the locations.yaml file.
+
+*'Land restricted scenarios': As mentioned in the paper, the land availability was restricted for the offshore AWE and floating wind scenarios. To do this, simply change the available_area constraint accordingly in locations.yaml
+
+*'floatwind_groupconstraints': maximum combined installed capacity for awe_deep and wind_floating
+
+*'offshorewind_groupconstraints': maximum combined installed capacity for awe_shallow and wind_offshore wind
+
+*'onshorewind_min': minimal installed capacities for onshore wind turbines
+
+
+
+In addition, you can model 2030 or 2050 projection years. To model the 2030 year, you need to add some additional overrides. 
 
 For instance, for 2030: `industry_fuel,transport,heat,config_overrides,gas_storage,link_cap_1x,freeze-hydro-capacities,synfuel_transmission,heat_techs_2030,renewable_techs_2030,transformation_techs_2030,2030_neutral,fossil-fuel-supply,res_24h,add-biofuel,coal_supply,north_sea`. Here, various technology overrides are applied, along with fossil fuel technologies and a corresponding emission cap scenario.
 
