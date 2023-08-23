@@ -3,13 +3,12 @@
 
 `This README.md file is adapted from the original by Bryn Pickering`
 
-This model is pre-packaged and ready to be loaded into Calliope, based on 2015 input data. To run the model you will need to do the following:
+This model is pre-packaged and ready to be loaded into Calliope, based on 2015 input data. 2050scenarioexample.py is an example script to run the model. To run the model you will need to do the following:
 
 a. Install a specific conda environment to be working with the correct version of Calliope (`conda env create -f requirements.yml`)
 
 b. Include specific scenarios to pick up the relevant sectors. The default is:
  `"industry_fuel,transport,heat,config_overrides,res_24h,gas_storage,link_cap_dynamic,freeze-hydro-capacities,add-biofuel,synfuel_transmission,north_sea"` where:
-
 
 * `industry_fuel`: Includes all non-electrical industry demands distributed by region, and the necessary technologies to generate those fuels synthetically. This includes e.g. annual methanol requirements for the chemical industry.
 
@@ -37,7 +36,7 @@ In addition, the North-Sea-Calliope-AWE-floatwind workflow has some extra scenar
 
 * The technologies are defined in renewables-techs.yaml. In locations.yaml, the available land area (in km^2), and minimal installed capacities of floating wind and offshore wind are defined, as well as max installed capacity for other technologies. 
 
-*'scenario_2050' : These files all represent a different scenario throughout which cost inputs of one technology are varied. 
+* 'scenario_2050' : These files all represent a different scenario throughout which cost inputs of one technology are varied. 
 
 scenario_2050_1_1 to scenario_2050_1_9 are for the offshore AWE scenarios
 
@@ -45,15 +44,17 @@ scenario_2050_2_1 to scenario_2050_2_11 are for the onshore AWE scenarios with p
 
 scenario_2050_5_1 to scenario_2050_5_9 are for the floating wind scenarios. When running these scenarios, you have to disable the AWE techs by commenting the lines in renewable-techs.yaml where they are defined. Additionally, the awe techs have to be left out in the floatwind_groupconstraints.yaml and offshorewind_groupconstraints.yaml scenarios. Lastly, the awe techs have to be commented in the locations.yaml file.
 
-*'Land restricted scenarios': As mentioned in the paper, the land availability was restricted for the offshore AWE and floating wind scenarios. To do this, simply change the available_area constraint accordingly in locations.yaml
+* 'Land restricted scenarios': As mentioned in the paper, the land availability was restricted for the offshore AWE and floating wind scenarios. To do this, simply change the available_area constraint accordingly in locations.yaml
 
-*'floatwind_groupconstraints': maximum combined installed capacity for awe_deep and wind_floating
+* 'floatwind_groupconstraints': maximum combined installed capacity for awe_deep and wind_floating. Override name: floatwind_cap_max
 
-*'offshorewind_groupconstraints': maximum combined installed capacity for awe_shallow and wind_offshore wind
+* 'offshorewind_groupconstraints': maximum combined installed capacity for awe_shallow and wind_offshore wind. Override name: offshorewind_cap_max
 
-*'onshorewind_min': minimal installed capacities for onshore wind turbines
+* 'onshorewind_min': minimal installed capacities for onshore wind turbines. Override name: onshorewind_cap_min
 
+2050scenarioexample.py provides and example to run the model with the default settings (12h resolution) and additionally the following overrides: scenario_2050_2_11,floatwind_cap_max,offshorewind_cap_max,onshorewind_cap_min 
 
+The scripts to run all the different scenarios on the delftblue high performance cluster are included in the folder: 'scenario scripts'.
 
 In addition, you can model 2030 or 2050 projection years. To model the 2030 year, you need to add some additional overrides. 
 
